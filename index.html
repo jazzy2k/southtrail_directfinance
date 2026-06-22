@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Direct Finance | Get Approved Today — Calgary Inventory</title>
+<meta name="description" content="Browse 173 used vehicles across three Calgary dealerships. All credit types welcome — we shop 20+ lenders to find your best rate. Apply for financing in 2 minutes.">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '7794966913922273');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=7794966913922273&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ── TOKENS ─────────────────────────────────────── */
+:root{
+  --red:#D91A2A; --red-h:#FF2D3E; --red-dim:rgba(217,26,42,.12);
+  --dark:#0C0F18; --surf:#131827; --surf2:#1A2035;
+  --border:#252B40; --border2:#303654;
+  --text:#F0F2F8; --sub:#B0B8D0; --muted:#7A84A0;
+  --green:#16C665; --green-dim:rgba(22,198,101,.12);
+  --amber:#F5A623; --amber-dim:rgba(245,166,35,.12);
+  --display:'Barlow Condensed',sans-serif;
+  --body:'Inter',sans-serif;
+  --r4:4px; --r8:8px; --r12:12px; --r16:16px;
+  --shadow:0 4px 24px rgba(0,0,0,.45);
+}
+/* ── RESET ───────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--dark);color:var(--text);font-family:var(--body);line-height:1.55;min-height:100vh;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer;font-family:var(--body);border:none}
+select,input,textarea{font-family:var(--body)}
+
+/* ── HEADER ──────────────────────────────────────── */
+.hdr{position:sticky;top:0;z-index:200;background:rgba(12,15,24,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:20px;padding:0 24px;height:64px}
+.hdr-logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-size:22px;font-weight:900;letter-spacing:.5px}
+.hdr-logo-badge{background:var(--red);color:#fff;padding:4px 10px;border-radius:var(--r4);font-size:14px;letter-spacing:1px}
+.hdr-nav{display:flex;gap:4px;margin-left:auto}
+.hdr-nav a{padding:8px 14px;border-radius:var(--r8);font-size:13px;font-weight:500;color:var(--sub);transition:color .15s,background .15s}
+.hdr-nav a:hover{color:var(--text);background:var(--surf2)}
+.hdr-cta{background:var(--red);color:#fff;padding:8px 18px;border-radius:var(--r8);font-size:13px;font-weight:600;transition:background .15s}
+.hdr-cta:hover{background:var(--red-h)}
+.hdr-phone{color:var(--sub);font-size:13px;font-weight:500;margin-left:8px}
+.hdr-phone a{color:var(--amber);font-weight:700}
+
+/* ── HERO ────────────────────────────────────────── */
+.hero{background:var(--surf);padding:72px 24px 64px;text-align:center;position:relative;overflow:hidden;border-bottom:1px solid var(--border)}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 0%,rgba(217,26,42,.18) 0%,transparent 70%);pointer-events:none}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--red-dim);border:1px solid rgba(217,26,42,.3);border-radius:20px;padding:6px 14px;font-size:12px;font-weight:600;color:var(--red-h);letter-spacing:.5px;text-transform:uppercase;margin-bottom:24px}
+.hero-eyebrow::before{content:'●';font-size:8px;animation:blink 1.4s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hero h1{font-family:var(--display);font-size:clamp(52px,9vw,92px);font-weight:900;line-height:.95;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px}
+.hero h1 span{color:var(--red)}
+.hero-sub{font-size:clamp(15px,2vw,18px);color:var(--sub);max-width:560px;margin:0 auto 36px}
+
+/* Credit Meter — signature element */
+.credit-meter{max-width:520px;margin:0 auto 40px}
+.cm-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-bottom:10px}
+.cm-track{height:14px;border-radius:99px;background:var(--border2);overflow:hidden;position:relative}
+.cm-fill{height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,#D91A2A 0%,#F5A623 45%,#16C665 100%);transition:width 1.8s cubic-bezier(.22,1,.36,1)}
+.cm-fill.animated{width:100%}
+.cm-ticks{display:flex;justify-content:space-between;margin-top:7px}
+.cm-ticks span{font-size:11px;font-weight:600;color:var(--muted);transition:color .4s}
+.cm-ticks span.lit{color:var(--text)}
+.cm-caption{font-size:12px;color:var(--green);font-weight:600;margin-top:8px;opacity:0;transition:opacity .5s 1.5s}
+.cm-caption.show{opacity:1}
+
+.hero-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn-primary{background:var(--red);color:#fff;padding:14px 28px;border-radius:var(--r8);font-size:15px;font-weight:700;transition:background .15s,transform .1s;border:none}
+.btn-primary:hover{background:var(--red-h);transform:translateY(-1px)}
+.btn-outline{background:transparent;color:var(--text);padding:14px 28px;border-radius:var(--r8);font-size:15px;font-weight:600;border:1.5px solid var(--border2);transition:border-color .15s,background .15s}
+.btn-outline:hover{border-color:var(--sub);background:var(--surf2)}
+
+/* ── TRUST BAR ───────────────────────────────────── */
+.trust{display:flex;justify-content:center;gap:0;border-bottom:1px solid var(--border)}
+.trust-item{flex:1;max-width:220px;padding:24px 16px;text-align:center;border-right:1px solid var(--border)}
+.trust-item:last-child{border-right:none}
+.trust-n{font-family:var(--display);font-size:38px;font-weight:900;color:var(--red-h);line-height:1}
+.trust-l{font-size:12px;color:var(--muted);margin-top:4px;font-weight:500}
+
+/* ── INVENTORY ───────────────────────────────────── */
+.inv{padding:56px 24px;max-width:1320px;margin:0 auto}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:28px}
+.section-title{font-family:var(--display);font-size:36px;font-weight:900;text-transform:uppercase;letter-spacing:.5px}
+.section-title span{color:var(--red)}
+.section-count{font-size:13px;color:var(--muted);font-weight:500}
+
+.search-row{margin-bottom:16px}
+.search-box{position:relative;max-width:480px}
+.search-icon{position:absolute;left:16px;top:50%;transform:translateY(-50%);font-size:15px;color:var(--muted);pointer-events:none}
+.search-input{width:100%;background:var(--surf);border:1.5px solid var(--border);color:var(--text);padding:13px 44px 13px 44px;border-radius:var(--r8);font-size:14px;transition:border-color .15s,background .15s}
+.search-input::placeholder{color:var(--muted)}
+.search-input:focus{outline:none;border-color:var(--red);background:var(--dark)}
+.search-clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--muted);font-size:14px;cursor:pointer;padding:6px 10px;border-radius:var(--r4);display:none;transition:color .15s}
+.search-clear:hover{color:var(--text)}
+.search-clear.show{display:block}
+.search-no-results{grid-column:1/-1;text-align:center;padding:48px 20px;color:var(--muted)}
+.search-no-results strong{color:var(--text);display:block;margin-bottom:6px;font-size:16px}
+
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.filter-btn{background:var(--surf);border:1.5px solid var(--border);color:var(--sub);padding:7px 16px;border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s}
+.filter-btn:hover,.filter-btn.active{background:var(--red-dim);border-color:var(--red);color:var(--text)}
+
+.inv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+
+.show-more-wrap{display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:32px}
+.show-more-wrap.hidden{display:none}
+.btn-show-more{background:var(--surf);border:1.5px solid var(--border2);color:var(--text);padding:14px 36px;border-radius:var(--r8);font-size:14px;font-weight:700;transition:all .15s;display:flex;align-items:center;gap:8px}
+.btn-show-more:hover{border-color:var(--red);background:var(--red-dim);color:var(--red-h)}
+.btn-show-more::after{content:'↓';font-size:14px;transition:transform .15s}
+.btn-show-more:hover::after{transform:translateY(2px)}
+.show-more-count{font-size:12px;color:var(--muted)}
+.vcard{background:var(--surf);border:1px solid var(--border);border-radius:var(--r12);overflow:hidden;display:flex;flex-direction:column;transition:transform .15s,border-color .15s;cursor:default}
+.vcard:hover{transform:translateY(-3px);border-color:var(--border2)}
+.vcard.hidden{display:none}
+
+.vcard-img-wrap{position:relative;aspect-ratio:4/3;background:#0A0D17;overflow:hidden}
+.vcard-img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s}
+.vcard:hover .vcard-img{transform:scale(1.03)}
+.vcard-img-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:36px;color:var(--border2)}
+.vcard-badge{position:absolute;top:10px;left:10px;background:rgba(12,15,24,.85);backdrop-filter:blur(4px);border:1px solid var(--border2);border-radius:99px;font-size:11px;font-weight:700;padding:3px 10px;color:var(--sub);letter-spacing:.3px}
+
+.vcard-body{padding:14px 16px 16px;display:flex;flex-direction:column;flex:1}
+.vcard-title{font-size:14px;font-weight:600;line-height:1.4;color:var(--text);margin-bottom:12px;flex:1}
+
+.price-block{background:var(--dark);border-radius:var(--r8);padding:10px 12px;margin-bottom:12px}
+.price-confirmed-tag{font-size:10px;font-weight:700;color:var(--green);text-transform:uppercase;letter-spacing:.8px;display:flex;align-items:center;gap:5px;margin-bottom:6px}
+.price-confirmed-tag::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block}
+.price-row{display:flex;justify-content:space-between;align-items:center;font-size:12px;margin-bottom:3px}
+.price-row:last-child{margin-bottom:0}
+.price-row-label{color:var(--muted)}
+.price-init{color:var(--muted);text-decoration:line-through;font-size:12px}
+.price-discount{color:var(--green);font-weight:600}
+.price-final{font-family:var(--display);font-size:24px;font-weight:900;color:var(--amber);line-height:1}
+.price-call{background:var(--surf2);border:1.5px solid var(--border2);border-radius:var(--r8);padding:10px 12px;margin-bottom:12px;text-align:center}
+.price-call-btn{display:block;color:var(--amber);font-weight:700;font-size:14px;transition:color .15s}
+.price-call-btn:hover{color:#fff}
+.price-call-sub{font-size:11px;color:var(--muted);margin-top:3px}
+
+.vcard-actions{display:grid;grid-template-columns:1fr;gap:8px}
+.btn-apply{background:var(--red);color:#fff;padding:9px 12px;border-radius:var(--r8);font-size:12px;font-weight:700;text-align:center;transition:background .15s;border:none;width:100%}
+.btn-apply:hover{background:var(--red-h)}
+.btn-view{background:transparent;border:1.5px solid var(--border2);color:var(--sub);padding:9px 12px;border-radius:var(--r8);font-size:12px;font-weight:600;text-align:center;transition:all .15s;display:block;width:100%}
+.btn-view:hover{border-color:var(--sub);color:var(--text)}
+
+/* ── HOW IT WORKS ────────────────────────────────── */
+.hiw{background:var(--surf);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:56px 24px}
+.hiw-inner{max-width:900px;margin:0 auto;text-align:center}
+.hiw-title{font-family:var(--display);font-size:34px;font-weight:900;text-transform:uppercase;margin-bottom:8px}
+.hiw-sub{color:var(--muted);font-size:15px;margin-bottom:40px}
+.hiw-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;position:relative}
+.hiw-steps::before{content:'';position:absolute;top:28px;left:calc(16.6% + 20px);right:calc(16.6% + 20px);height:1px;background:var(--border2)}
+.hiw-step{position:relative;z-index:1}
+.hiw-num{width:56px;height:56px;border-radius:50%;background:var(--surf2);border:2px solid var(--red);display:flex;align-items:center;justify-content:center;font-family:var(--display);font-size:22px;font-weight:900;color:var(--red-h);margin:0 auto 16px}
+.hiw-step-title{font-weight:700;font-size:15px;margin-bottom:6px}
+.hiw-step-desc{font-size:13px;color:var(--muted);line-height:1.5}
+
+/* ── FORM ────────────────────────────────────────── */
+.form-section{padding:64px 24px;max-width:780px;margin:0 auto}
+.form-section-head{text-align:center;margin-bottom:40px}
+.form-section-head .section-title{font-size:clamp(28px,4vw,44px)}
+.form-section-head p{color:var(--sub);font-size:15px;margin-top:10px;max-width:500px;margin-left:auto;margin-right:auto}
+
+/* progress bar */
+.form-progress{display:flex;gap:4px;margin-bottom:36px}
+.fp-step{flex:1;height:3px;border-radius:99px;background:var(--border2);transition:background .3s}
+.fp-step.done{background:var(--green)}
+.fp-step.active{background:var(--red)}
+.fp-labels{display:flex;justify-content:space-between;margin-top:8px}
+.fp-labels span{font-size:11px;color:var(--muted);font-weight:500}
+
+.form-card{background:var(--surf);border:1px solid var(--border);border-radius:var(--r16);padding:32px;display:none}
+.form-card.active{display:block}
+.form-card-title{font-family:var(--display);font-size:24px;font-weight:800;text-transform:uppercase;margin-bottom:24px;color:var(--text);letter-spacing:.3px}
+
+.form-row{display:grid;gap:16px;margin-bottom:16px}
+.form-row.cols2{grid-template-columns:1fr 1fr}
+.form-row.cols3{grid-template-columns:1fr 1fr 1fr}
+.form-group{display:flex;flex-direction:column;gap:6px}
+.form-label{font-size:12px;font-weight:600;color:var(--sub);text-transform:uppercase;letter-spacing:.5px}
+.form-label span{color:var(--red)}
+.form-input,.form-select,.form-textarea{background:var(--surf2);border:1.5px solid var(--border);color:var(--text);padding:11px 14px;border-radius:var(--r8);font-size:14px;width:100%;transition:border-color .15s,background .15s;-webkit-appearance:none;appearance:none}
+.form-input::placeholder{color:var(--muted)}
+.form-input:focus,.form-select:focus{outline:none;border-color:var(--red);background:var(--dark)}
+.form-input.error{border-color:var(--red)}
+.form-error{font-size:11px;color:var(--red);display:none}
+.form-error.show{display:block}
+.form-hint{font-size:11px;color:var(--muted)}
+
+/* Toggle (yes/no) */
+.toggle-group{display:flex;gap:8px}
+.toggle-btn{flex:1;padding:10px;border-radius:var(--r8);font-size:13px;font-weight:600;background:var(--surf2);border:1.5px solid var(--border);color:var(--muted);transition:all .15s}
+.toggle-btn.selected-yes{background:var(--green-dim);border-color:var(--green);color:var(--green)}
+.toggle-btn.selected-no{background:var(--red-dim);border-color:var(--red);color:var(--red-h)}
+
+/* Conditional section */
+.conditional{display:none;margin-top:16px;padding:16px;background:var(--surf2);border-radius:var(--r8);border:1px solid var(--border2)}
+.conditional.show{display:block}
+
+/* Vehicle of interest */
+.voi-select{width:100%;background:var(--surf2);border:1.5px solid var(--border);color:var(--text);padding:11px 14px;border-radius:var(--r8);font-size:14px;-webkit-appearance:none;appearance:none;cursor:pointer}
+.voi-select:focus{outline:none;border-color:var(--red)}
+.voi-selected-tag{display:none;background:var(--red-dim);border:1px solid var(--red);border-radius:var(--r8);padding:10px 14px;font-size:13px;font-weight:600;color:var(--red-h);margin-bottom:12px;align-items:center;gap:8px}
+.voi-selected-tag.show{display:flex}
+.voi-clear{background:none;border:none;color:var(--muted);font-size:18px;cursor:pointer;margin-left:auto;line-height:1;padding:0 4px}
+
+/* Form nav */
+.form-nav{display:flex;justify-content:space-between;align-items:center;margin-top:24px;padding-top:20px;border-top:1px solid var(--border)}
+.btn-back{background:transparent;border:1.5px solid var(--border2);color:var(--sub);padding:12px 24px;border-radius:var(--r8);font-size:14px;font-weight:600;transition:all .15s}
+.btn-back:hover{border-color:var(--sub);color:var(--text)}
+.btn-next{background:var(--red);color:#fff;padding:12px 32px;border-radius:var(--r8);font-size:14px;font-weight:700;transition:background .15s;border:none}
+.btn-next:hover{background:var(--red-h)}
+.btn-submit{background:var(--green);color:#fff;padding:14px 40px;border-radius:var(--r8);font-size:15px;font-weight:700;transition:background .15s,transform .1s;border:none}
+.btn-submit:hover{background:#12b05a;transform:translateY(-1px)}
+.btn-submit:disabled{background:var(--muted);cursor:not-allowed;transform:none}
+
+/* Success state */
+.form-success{display:none;text-align:center;padding:40px 20px}
+.form-success.show{display:block}
+.success-icon{font-size:56px;margin-bottom:16px}
+.success-title{font-family:var(--display);font-size:32px;font-weight:900;text-transform:uppercase;color:var(--green);margin-bottom:10px}
+.success-sub{color:var(--sub);font-size:15px}
+
+/* ── FOOTER ──────────────────────────────────────── */
+.footer{background:var(--surf);border-top:1px solid var(--border);padding:32px 24px;text-align:center}
+.footer-logo{font-family:var(--display);font-size:20px;font-weight:900;margin-bottom:8px}
+.footer-logo span{color:var(--red)}
+.footer-links{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin:12px 0;font-size:13px}
+.footer-links a{color:var(--muted);transition:color .15s}
+.footer-links a:hover{color:var(--text)}
+.footer-copy{font-size:12px;color:var(--muted);margin-top:8px}
+
+/* ── UTILITIES ───────────────────────────────────── */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+/* ── MOBILE STICKY CALL BAR ──────────────────────── */
+.mobile-sticky-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#131827;border-top:1px solid var(--border2);padding:10px 16px;gap:10px}
+.sticky-call-btn{flex:1;background:var(--green);color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:12px 10px;border-radius:var(--r8);text-align:center}
+.sticky-apply-btn{flex:1;background:var(--red);color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:12px 10px;border-radius:var(--r8);text-align:center}
+@media(max-width:768px){
+  .mobile-sticky-bar{display:flex}
+  body{padding-bottom:72px}
+}
+
+/* ── RESPONSIVE ──────────────────────────────────── */
+
+/* Tablet — 768px */
+@media(max-width:768px){
+  /* header */
+  .hdr{padding:0 16px;height:56px}
+  .hdr-nav{display:none}
+  .hdr-phone{display:none}
+  .hdr-logo{font-size:18px}
+  .hdr-logo-badge{font-size:12px;padding:3px 8px}
+
+  /* hero */
+  .hero{padding:40px 16px 32px}
+  .hero h1{font-size:clamp(40px,10vw,64px)}
+  .hero-btns{flex-direction:column;align-items:center;gap:10px}
+  .btn-primary,.btn-outline{width:100%;max-width:320px;text-align:center}
+
+  /* trust bar — 2x2 grid */
+  .trust{display:grid;grid-template-columns:1fr 1fr}
+  .trust-item{border-right:none;border-bottom:1px solid var(--border);max-width:none}
+  .trust-item:nth-child(1),.trust-item:nth-child(2){border-bottom:1px solid var(--border)}
+  .trust-item:nth-child(3),.trust-item:nth-child(4){border-bottom:none}
+  .trust-item:nth-child(odd){border-right:1px solid var(--border)}
+
+  /* inventory */
+  .inv{padding:32px 16px}
+  .section-head{flex-direction:column;align-items:flex-start;gap:8px}
+  .search-box{max-width:100%}
+  .filters{gap:6px}
+  .filter-btn{padding:6px 12px;font-size:12px}
+  .inv-grid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+
+  /* how it works */
+  .hiw{padding:36px 16px}
+  .hiw-steps{grid-template-columns:1fr;gap:20px}
+  .hiw-steps::before{display:none}
+  .hiw-step{display:flex;align-items:flex-start;gap:16px;text-align:left}
+  .hiw-num{min-width:48px;margin:0}
+  .hiw-step-title{margin-bottom:4px}
+
+  /* form */
+  .form-section{padding:36px 16px}
+  .form-card{padding:20px 16px}
+  .form-row.cols2,.form-row.cols3{grid-template-columns:1fr}
+  .form-nav{flex-direction:column;gap:10px}
+  .btn-back,.btn-next,.btn-submit{width:100%;text-align:center}
+  .btn-back{order:2}
+  .btn-next,.btn-submit{order:1}
+}
+
+/* Small phones — 480px */
+@media(max-width:480px){
+  /* hero */
+  .hero{padding:32px 14px 28px}
+  .hero h1{font-size:clamp(36px,11vw,52px)}
+  .credit-meter{max-width:100%}
+
+  /* vehicle cards — single column */
+  .inv-grid{grid-template-columns:1fr;gap:10px}
+  .vcard-img-wrap{aspect-ratio:16/9}
+
+  /* trust bar — stay 2x2 but smaller */
+  .trust-n{font-size:28px}
+
+  /* filters — horizontal scroll instead of wrapping */
+  .filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .filters::-webkit-scrollbar{display:none}
+  .filter-btn{white-space:nowrap;flex-shrink:0}
+
+  /* show more button */
+  .btn-show-more{width:100%;justify-content:center}
+
+  /* form */
+  .form-section{padding:24px 14px}
+  .fp-labels span{font-size:10px}
+  .toggle-group{flex-direction:column}
+  .toggle-btn{text-align:center}
+}
+
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="hdr-logo">
+    <span class="hdr-logo-badge">DF</span>
+    Direct Finance
+  </div>
+  <nav class="hdr-nav">
+    <a href="#inventory">Inventory</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#apply" class="hdr-cta">Apply Now</a>
+  </nav>
+  <div class="hdr-phone">Questions? <a href="tel:+16137040577">1-613-704-0577</a></div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow">173 Vehicles Available Now · Calgary, AB</div>
+  <h1>Your Best Rate.<br><span>Any Credit.</span><br>Guaranteed.</h1>
+  <p class="hero-sub">Good credit or rebuilding — we shop 20+ Canadian lenders to find the best rate for YOUR situation. No pressure. No surprises.</p>
+
+  <div class="credit-meter" id="creditMeter">
+    <div class="cm-label">We work with every credit level — and find your best available rate</div>
+    <div class="cm-track"><div class="cm-fill" id="cmFill"></div></div>
+    <div class="cm-ticks">
+      <span id="t1">Poor</span><span id="t2">Fair</span><span id="t3">Good</span><span id="t4">Excellent</span>
+    </div>
+    <p class="cm-caption" id="cmCaption">✓ Every credit level gets our best available rate</p>
+  </div>
+
+  <div class="hero-btns">
+    <button class="btn-primary" onclick="document.getElementById('inventory').scrollIntoView({behavior:'smooth'})">Browse 173 Vehicles</button>
+    <button class="btn-outline" onclick="document.getElementById('apply').scrollIntoView({behavior:'smooth'})">Apply in 2 Minutes →</button>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust">
+  <div class="trust-item"><div class="trust-n">500+</div><div class="trust-l">Canadians Helped</div></div>
+  <div class="trust-item"><div class="trust-n">20+</div><div class="trust-l">Lenders Shopped</div></div>
+  <div class="trust-item"><div class="trust-n">24hr</div><div class="trust-l">Average Approval</div></div>
+  <div class="trust-item"><div class="trust-n">173</div><div class="trust-l">Vehicles Available</div></div>
+</div>
+
+<!-- INVENTORY -->
+<section class="inv" id="inventory">
+  <div class="section-head">
+    <div>
+      <div class="section-title">Available <span>Inventory</span></div>
+      <div class="section-count">Calgary, AB · <span id="visibleCount">12</span> of <span id="totalCount">173</span> vehicles</div>
+    </div>
+  </div>
+  <div class="search-row">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" class="search-input" placeholder="Search by make or model (e.g. Kia, RAV4, Civic)..." autocomplete="off">
+      <button class="search-clear" id="searchClear" onclick="clearSearch()" title="Clear search">✕</button>
+    </div>
+  </div>
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-filter="all">All (173)</button>
+    <button class="filter-btn" data-filter="suv">SUV / Crossover</button>
+    <button class="filter-btn" data-filter="sedan">Sedan / Hatch</button>
+    <button class="filter-btn" data-filter="minivan">Minivan</button>
+    <button class="filter-btn" data-filter="truck">Truck / Van</button>
+  </div>
+  <div class="inv-grid" id="invGrid"></div>
+  <div class="show-more-wrap" id="showMoreWrap">
+    <button class="btn-show-more" id="showMoreBtn" onclick="showMore()">Show More Vehicles</button>
+    <p class="show-more-count" id="showMoreCount"></p>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="hiw" id="how-it-works">
+  <div class="hiw-inner">
+    <div class="hiw-title">How It <span style="color:var(--red)">Works</span></div>
+    <p class="hiw-sub">No dealership pressure. Apply from your phone. We shop lenders for you.</p>
+    <div class="hiw-steps">
+      <div class="hiw-step">
+        <div class="hiw-num">1</div>
+        <div class="hiw-step-title">Pick Your Vehicle</div>
+        <div class="hiw-step-desc">Browse 173 ready-to-drive vehicles across three trusted Calgary dealerships. Find the one that fits your lifestyle and budget.</div>
+      </div>
+      <div class="hiw-step">
+        <div class="hiw-num">2</div>
+        <div class="hiw-step-title">Apply in 2 Minutes</div>
+        <div class="hiw-step-desc">Fill out our simple finance application. No SIN required. We never do a hard credit check just to get you a quote.</div>
+      </div>
+      <div class="hiw-step">
+        <div class="hiw-num">3</div>
+        <div class="hiw-step-title">We Find Your Best Rate</div>
+        <div class="hiw-step-desc">Our team shops 20+ Canadian lenders and presents your best options — whether you have excellent credit or are just starting out.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINANCING FORM -->
+<section class="form-section" id="apply">
+  <div class="form-section-head">
+    <div class="section-title">Apply for <span style="color:var(--red)">Financing</span></div>
+    <p>Takes about 2 minutes. All credit types welcome — from excellent to rebuilding. No obligation.</p>
+  </div>
+
+  <!-- Progress -->
+  <div class="form-progress">
+    <div class="fp-step active" id="fp1"></div>
+    <div class="fp-step" id="fp2"></div>
+    <div class="fp-step" id="fp3"></div>
+    <div class="fp-step" id="fp4"></div>
+  </div>
+  <div class="fp-labels">
+    <span>Personal</span><span>Address</span><span>Employment</span><span>License &amp; Trade-In</span>
+  </div>
+
+  <div id="formContainer">
+
+    <!-- STEP 1: Personal -->
+    <div class="form-card active" id="step1">
+      <div class="form-card-title">Personal Information</div>
+
+      <!-- Vehicle of interest (auto-populated from card click) -->
+      <div class="voi-selected-tag" id="voiTag">
+        <span id="voiTagText">Interested in: —</span>
+        <button class="voi-clear" onclick="clearVoi()" title="Clear">✕</button>
+      </div>
+      <div class="form-group" id="voiGroup" style="margin-bottom:16px">
+        <label class="form-label">Vehicle of Interest</label>
+        <select class="voi-select" id="vehicleOfInterest" name="vehicleOfInterest">
+          <option value="">— Select a vehicle (optional) —</option>
+        </select>
+      </div>
+
+      <div class="form-row cols2">
+        <div class="form-group">
+          <label class="form-label">First Name <span>*</span></label>
+          <input class="form-input" type="text" id="firstName" name="firstName" placeholder="John" autocomplete="given-name" required>
+          <span class="form-error" id="err-firstName">Please enter your first name</span>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Last Name <span>*</span></label>
+          <input class="form-input" type="text" id="lastName" name="lastName" placeholder="Smith" autocomplete="family-name" required>
+          <span class="form-error" id="err-lastName">Please enter your last name</span>
+        </div>
+      </div>
+      <div class="form-row cols2">
+        <div class="form-group">
+          <label class="form-label">Email Address <span>*</span></label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="john@example.com" autocomplete="email" required>
+          <span class="form-error" id="err-email">Please enter a valid email</span>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Phone Number <span>*</span></label>
+          <input class="form-input" type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX" autocomplete="tel" required>
+          <span class="form-error" id="err-phone">Please enter your phone number</span>
+        </div>
+      </div>
+      <div class="form-row" style="grid-template-columns:1fr 1fr">
+        <div class="form-group">
+          <label class="form-label">Date of Birth <span>*</span></label>
+          <input class="form-input" type="date" id="dateOfBirth" name="dateOfBirth" required>
+          <span class="form-error" id="err-dateOfBirth">Please enter your date of birth</span>
+        </div>
+      </div>
+      <div class="form-nav">
+        <div></div>
+        <button class="btn-next" onclick="goStep(2)">Next: Address →</button>
+      </div>
+    </div>
+
+    <!-- STEP 2: Address -->
+    <div class="form-card" id="step2">
+      <div class="form-card-title">Your Address</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Street Address <span>*</span></label>
+          <input class="form-input" type="text" id="streetAddress" name="streetAddress" placeholder="123 Main Street" autocomplete="street-address" required>
+          <span class="form-error" id="err-streetAddress">Please enter your street address</span>
+        </div>
+      </div>
+      <div class="form-row cols3">
+        <div class="form-group">
+          <label class="form-label">City <span>*</span></label>
+          <input class="form-input" type="text" id="city" name="city" placeholder="Calgary" autocomplete="address-level2" required>
+          <span class="form-error" id="err-city">Please enter your city</span>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Province <span>*</span></label>
+          <select class="form-select" id="province" name="province" required>
+            <option value="">Select…</option>
+            <option>Alberta</option><option>British Columbia</option><option>Manitoba</option>
+            <option>New Brunswick</option><option>Newfoundland and Labrador</option>
+            <option>Northwest Territories</option><option>Nova Scotia</option><option>Nunavut</option>
+            <option>Ontario</option><option>Prince Edward Island</option><option>Quebec</option>
+            <option>Saskatchewan</option><option>Yukon</option>
+          </select>
+          <span class="form-error" id="err-province">Please select your province</span>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Postal Code <span>*</span></label>
+          <input class="form-input" type="text" id="postalCode" name="postalCode" placeholder="T2X 0X0" autocomplete="postal-code" maxlength="7" required>
+          <span class="form-error" id="err-postalCode">Please enter your postal code</span>
+        </div>
+      </div>
+      <div class="form-nav">
+        <button class="btn-back" onclick="goStep(1)">← Back</button>
+        <button class="btn-next" onclick="goStep(3)">Next: Employment →</button>
+      </div>
+    </div>
+
+    <!-- STEP 3: Employment -->
+    <div class="form-card" id="step3">
+      <div class="form-card-title">Employment Details</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Employment Status <span>*</span></label>
+          <select class="form-select" id="employmentStatus" name="employmentStatus" required onchange="toggleEmployment()">
+            <option value="">Select…</option>
+            <option value="Employed Full-Time">Employed — Full-Time</option>
+            <option value="Employed Part-Time">Employed — Part-Time</option>
+            <option value="Self-Employed">Self-Employed</option>
+            <option value="Seasonal">Seasonal Employment</option>
+            <option value="Unemployed">Unemployed</option>
+            <option value="Student">Student</option>
+            <option value="Retired">Retired</option>
+            <option value="Disability/Benefits">Disability / Benefits</option>
+          </select>
+          <span class="form-error" id="err-employmentStatus">Please select your employment status</span>
+        </div>
+      </div>
+      <div class="conditional" id="employerFields">
+        <div class="form-row cols2">
+          <div class="form-group">
+            <label class="form-label">Employer / Company Name</label>
+            <input class="form-input" type="text" id="employerName" name="employerName" placeholder="ABC Company Ltd.">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Job Title / Position</label>
+            <input class="form-input" type="text" id="jobTitle" name="jobTitle" placeholder="e.g. Sales Associate">
+          </div>
+        </div>
+      </div>
+      <div class="form-row" style="grid-template-columns:1fr 1fr">
+        <div class="form-group">
+          <label class="form-label">Monthly Income (CAD) <span>*</span></label>
+          <input class="form-input" type="number" id="monthlyIncome" name="monthlyIncome" placeholder="e.g. 3500" min="0" required>
+          <span class="form-hint">Gross income before taxes</span>
+          <span class="form-error" id="err-monthlyIncome">Please enter your monthly income</span>
+        </div>
+      </div>
+      <div class="form-nav">
+        <button class="btn-back" onclick="goStep(2)">← Back</button>
+        <button class="btn-next" onclick="goStep(4)">Next: License &amp; Trade-In →</button>
+      </div>
+    </div>
+
+    <!-- STEP 4: License + Trade-in -->
+    <div class="form-card" id="step4">
+      <div class="form-card-title">License &amp; Trade-In</div>
+
+      <!-- Driver's License -->
+      <div class="form-row" style="margin-bottom:8px">
+        <div class="form-group">
+          <label class="form-label">Do you have a valid driver's license? <span>*</span></label>
+          <div class="toggle-group">
+            <button class="toggle-btn" id="licYes" onclick="setLicense('yes')">✓ Yes, I do</button>
+            <button class="toggle-btn" id="licNo" onclick="setLicense('no')">✗ No license</button>
+          </div>
+          <span class="form-error" id="err-license">Please select an option</span>
+        </div>
+      </div>
+      <div class="conditional" id="licenseFields">
+        <div class="form-row cols2">
+          <div class="form-group">
+            <label class="form-label">License Number <span style="color:var(--muted)">(optional)</span></label>
+            <input class="form-input" type="text" id="licenseNumber" name="licenseNumber" placeholder="e.g. AB-12345-67890">
+          </div>
+          <div class="form-group">
+            <label class="form-label">License Province</label>
+            <select class="form-select" id="licenseProvince" name="licenseProvince">
+              <option value="">Select…</option>
+              <option>Alberta</option><option>British Columbia</option><option>Manitoba</option>
+              <option>New Brunswick</option><option>Newfoundland and Labrador</option>
+              <option>Nova Scotia</option><option>Ontario</option><option>Quebec</option>
+              <option>Saskatchewan</option><option>Other</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trade-In -->
+      <div class="form-row" style="margin-top:20px;margin-bottom:8px">
+        <div class="form-group">
+          <label class="form-label">Do you have a vehicle to trade in?</label>
+          <div class="toggle-group">
+            <button class="toggle-btn" id="tradeYes" onclick="setTradeIn('yes')">✓ Yes, I do</button>
+            <button class="toggle-btn" id="tradeNo" onclick="setTradeIn('no')">✗ No trade-in</button>
+          </div>
+        </div>
+      </div>
+      <div class="conditional" id="tradeInFields">
+        <div class="form-row cols2">
+          <div class="form-group">
+            <label class="form-label">Trade-In Year</label>
+            <input class="form-input" type="number" id="tradeYear" name="tradeYear" placeholder="e.g. 2018" min="1990" max="2026">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Make</label>
+            <input class="form-input" type="text" id="tradeMake" name="tradeMake" placeholder="e.g. Toyota">
+          </div>
+        </div>
+        <div class="form-row cols2">
+          <div class="form-group">
+            <label class="form-label">Model</label>
+            <input class="form-input" type="text" id="tradeModel" name="tradeModel" placeholder="e.g. Corolla">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Kilometres</label>
+            <input class="form-input" type="number" id="tradeKm" name="tradeKm" placeholder="e.g. 95000" min="0">
+          </div>
+        </div>
+        <div class="form-row" style="grid-template-columns:1fr 1fr">
+          <div class="form-group">
+            <label class="form-label">Condition</label>
+            <select class="form-select" id="tradeCondition" name="tradeCondition">
+              <option value="">Select…</option>
+              <option>Excellent</option><option>Good</option><option>Fair</option><option>Poor</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-nav">
+        <button class="btn-back" onclick="goStep(3)">← Back</button>
+        <button class="btn-submit" id="submitBtn" onclick="submitForm()">Submit Application ✓</button>
+      </div>
+    </div>
+
+  </div><!-- /formContainer -->
+
+  <!-- SUCCESS STATE -->
+  <div class="form-success" id="formSuccess">
+    <div class="success-icon">🎉</div>
+    <div class="success-title">Application Submitted!</div>
+    <p class="success-sub">Thank you! A Direct Finance specialist will contact you within <strong>24 hours</strong> to discuss your options.<br><br>In the meantime, feel free to call us at <a href="tel:+16137040577" style="color:var(--amber);font-weight:700">1-613-704-0577</a></p>
+  </div>
+
+</section>
+
+<!-- MOBILE STICKY CALL BAR -->
+<div class="mobile-sticky-bar">
+  <a href="tel:+16137040577" class="sticky-call-btn">📞 Call Now — 613-704-0577</a>
+  <a href="#apply" class="sticky-apply-btn" onclick="document.getElementById('apply').scrollIntoView({behavior:'smooth'});return false">Apply Online</a>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-logo">Direct <span>Finance</span></div>
+  <div class="footer-links">
+    <a href="https://directfinance.ca" target="_blank">directfinance.ca</a>
+    <a href="#inventory">Browse Inventory</a>
+    <a href="#apply">Apply Now</a>
+    <a href="tel:+16137040577">Call Us</a>
+  </div>
+  <div class="footer-copy">© 2026 Direct Finance · Adscalesmedia Inc. · Serving all Canadian provinces · All credit types welcome</div>
+</footer>
+
+<script>
+/* ── VEHICLE DATA ─────────────────────────────────── */
+const PHONE = 'tel:+16137040577';
+const GHL_WEBHOOK = 'https://services.leadconnectorhq.com/hooks/QDrXqmUw1GFEgfDE2VDr/webhook-trigger/09169bf3-c9b1-4453-bf6c-9267e312ea8d';
+
+const vehicles = [
+  {id:1, store:"South Trail Kia", title:"2019 Chevrolet Spark",            img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3134/96ad3cd1-3c55-40f7-b906-b66d1c400939_overlay.jpg-420x315", price:13998, initPrice:14908, discount:910,  cat:"sedan",   url:"https://www.southtrailkia.com/vehicles/2019/chevrolet/spark/calgary/ab/69630104/?sale_class=used"},
+  {id:2, store:"South Trail Kia", title:"2019 Nissan Qashqai",             img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/34c59c37-d48b-49e3-b064-f81806bb6e08_overlay.jpg-420x315", price:14998, initPrice:18907, discount:3909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2019/nissan/qashqai/calgary/ab/69303089/?sale_class=used"},
+  {id:3, store:"South Trail Kia", title:"2019 Dodge Grand Caravan",        img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/ac81bbf6-240e-495e-bc5f-753c47e8bfc6_overlay.jpg-420x315", price:15998, initPrice:18434, discount:2436, cat:"minivan", url:"https://www.southtrailkia.com/vehicles/2019/dodge/grand-caravan/calgary/ab/69630109/?sale_class=used"},
+  {id:4, store:"South Trail Kia", title:"2019 Chevrolet Trax",             img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1119/4530/b9df2f4d-2bef-454f-84ce-2fc3fd5ae164_overlay.jpg-420x315", price:15998, initPrice:16907, discount:909,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2019/chevrolet/trax/calgary/ab/70333227/?sale_class=used"},
+  {id:5, store:"South Trail Kia", title:"2018 Buick Encore",               img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/afc4eb48-4b9a-4abc-bdd6-e13917ab56e2_overlay.jpg-420x315", price:16998, initPrice:17907, discount:909,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2018/buick/encore/calgary/ab/70115439/?sale_class=used"},
+  {id:6, store:"South Trail Kia", title:"2019 Kia Sorento",                img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1119/4530/e5b33378-57e0-4e2b-98b2-7d7e5f879a7d_overlay.jpg-420x315", price:16998, initPrice:20907, discount:3909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2019/kia/sorento/calgary/ab/70372590/?sale_class=used"},
+  {id:7, store:"South Trail Kia", title:"2019 Kia Sorento",                img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/bf0e75cc-d02f-4500-9494-f5811c46916c_overlay.jpg-420x315", price:17998, initPrice:20907, discount:2909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2019/kia/sorento/calgary/ab/69630106/?sale_class=used"},
+  {id:8, store:"South Trail Kia", title:"2019 Nissan Versa Note",          img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/40cb24b8-063e-481a-82bf-e0f8a9a40bbe_overlay.jpg-420x315", price:17998, initPrice:19434, discount:1436, cat:"sedan",   url:"https://www.southtrailkia.com/vehicles/2019/nissan/versa-note/calgary/ab/69630110/?sale_class=used"},
+  {id:9, store:"South Trail Kia", title:"2016 Nissan Pathfinder",          img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3132/c3838891-1416-4e08-bee5-865ef71cdf0d_overlay.jpg-420x315", price:17998, initPrice:20434, discount:2436, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2016/nissan/pathfinder/calgary/ab/69687954/?sale_class=used"},
+  {id:10, store:"South Trail Kia", title:"2021 Nissan Qashqai",             img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1119/4530/977f0ebc-7f54-4b35-8f56-7dd1213b8725_overlay.jpg-420x315", price:17998, initPrice:18907, discount:909,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2021/nissan/qashqai/calgary/ab/70235407/?sale_class=used"},
+  {id:11, store:"South Trail Kia", title:"2020 Hyundai Santa Fe",           img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1119/4530/b7b659e7-f008-4f09-95f9-02b4da6d549e_overlay.jpg-420x315", price:17998, initPrice:19907, discount:1909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2020/hyundai/santa-fe/calgary/ab/70419892/?sale_class=used"},
+  {id:12, store:"South Trail Kia", title:"2020 Nissan Altima",              img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3134/60330318-0c46-47ff-b097-05157c8669e4_overlay.jpg-420x315", price:18998, initPrice:22907, discount:3909, cat:"sedan",   url:"https://www.southtrailkia.com/vehicles/2020/nissan/altima/calgary/ab/69478826/?sale_class=used"},
+  {id:13, store:"South Trail Kia", title:"2020 Chevrolet Equinox",          img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3131/dad305bf-8b85-46c8-a51c-551f6e36c04b_overlay.jpg-420x315", price:20998, initPrice:24434, discount:3436, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2020/chevrolet/equinox/calgary/ab/69687965/?sale_class=used"},
+  {id:14, store:"South Trail Kia", title:"2022 Chevrolet Equinox",          img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/dacd4eb2-5f02-4f11-a63d-3bf11d7f58ae_overlay.jpg-420x315", price:24498, initPrice:28907, discount:4409, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2022/chevrolet/equinox/calgary/ab/69163282/?sale_class=used"},
+  {id:15, store:"South Trail Kia", title:"2016 Volvo XC90",                 img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3131/f62cea22-1703-44c4-8ce5-b09966a8fa67_overlay.jpg-420x315", price:24998, initPrice:27907, discount:2909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2016/volvo/xc90/calgary/ab/69303086/?sale_class=used"},
+  {id:16, store:"South Trail Kia", title:"2022 Mazda Mazda3 Sport",         img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1119/4530/a5c9e9e2-ae37-463b-9026-93885f9e6677_overlay.jpg-420x315", price:24998, initPrice:27907, discount:2909, cat:"sedan",   url:"https://www.southtrailkia.com/vehicles/2022/mazda/mazda3-sport/calgary/ab/70333229/?sale_class=used"},
+  {id:17, store:"South Trail Kia", title:"2022 Kia Seltos",                 img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/df138b4e-d062-43db-835c-01d3ab903e04_overlay.jpg-420x315", price:26998, initPrice:27907, discount:909,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2022/kia/seltos/calgary/ab/70268787/?sale_class=used"},
+  {id:18, store:"South Trail Kia", title:"2023 Nissan Rogue",               img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1119/4530/a8100788-da4b-4c19-9eea-5f486074ae9a_overlay.jpg-420x315", price:26998, initPrice:29907, discount:2909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2023/nissan/rogue/calgary/ab/70333226/?sale_class=used"},
+  {id:19, store:"South Trail Kia", title:"2022 Kia Seltos",                 img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/ee5427ea-b3a8-4631-be5a-735765c9236e_overlay.jpg-420x315", price:28998, initPrice:29907, discount:909,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2022/kia/seltos/calgary/ab/70333230/?sale_class=used"},
+  {id:20, store:"South Trail Kia", title:"2024 Ford Edge",                  img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/db3a1be7-cc14-47da-8fe7-6d70de5cc2d8_overlay.jpg-420x315", price:29998, initPrice:36598, discount:6600, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2024/ford/edge/calgary/ab/68377417/?sale_class=used"},
+  {id:21, store:"South Trail Kia", title:"2025 Kia Seltos",                 img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3134/a4b72c51-1146-4e2f-94d5-61e7a236a3aa_overlay.jpg-420x315", price:29998, initPrice:30907, discount:909,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2025/kia/seltos/calgary/ab/70115437/?sale_class=used"},
+  {id:22, store:"South Trail Kia", title:"2025 Kia Seltos",                 img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/1db8635c-c8c1-458a-8fc9-e22963767d0d_overlay.jpg-420x315", price:29998, initPrice:30907, discount:909,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2025/kia/seltos/calgary/ab/70245652/?sale_class=used"},
+  {id:23, store:"South Trail Kia", title:"2023 Nissan Rogue",               img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/29c4e8e3-14ce-4bae-a3df-791d09b4409e_overlay.jpg-420x315", price:30998, initPrice:34907, discount:3909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2023/nissan/rogue/calgary/ab/69478830/?sale_class=used"},
+  {id:24, store:"South Trail Kia", title:"2025 Kia Seltos",                 img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/3557d306-c7e2-441f-bb02-faaa4128209d_overlay.jpg-420x315", price:30998, initPrice:31909, discount:911,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2025/kia/seltos/calgary/ab/70128570/?sale_class=used"},
+  {id:25, store:"South Trail Kia", title:"2024 Chrysler Grand Caravan",     img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/67f10240-152f-4c68-a41b-07764d974857_overlay.jpg-420x315", price:32998, initPrice:38898, discount:5900, cat:"minivan", url:"https://www.southtrailkia.com/vehicles/2024/chrysler/grand-caravan/calgary/ab/68490139/?sale_class=used"},
+  {id:26, store:"South Trail Kia", title:"2025 Honda Civic Hatchback Hybrid", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/b3aa28d5-30d1-470e-8056-1cac62ad6022_overlay.jpg-420x315", price:33598, initPrice:36907, discount:3309, cat:"sedan",  url:"https://www.southtrailkia.com/vehicles/2025/honda/civic-hatchback-hybrid/calgary/ab/70053574/?sale_class=used"},
+  {id:27, store:"South Trail Kia", title:"2022 Toyota RAV4",                img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3131/201c3f1a-2f1a-4403-9e22-9d49cbb81ffa_overlay.jpg-420x315", price:33998, initPrice:37907, discount:3909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2022/toyota/rav4/calgary/ab/70053572/?sale_class=used"},
+  {id:28, store:"South Trail Kia", title:"2020 Jeep Wrangler Unlimited",    img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/1cf71df3-7acf-463f-94fe-9a64eca4deb8_overlay.jpg-420x315", price:35998, initPrice:37907, discount:1909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2020/jeep/wrangler-unlimited/calgary/ab/70121994/?sale_class=used"},
+  {id:29, store:"South Trail Kia", title:"2025 Kia Sportage",               img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1119/4531/1cb8acb9-3cf9-43fe-b925-3aa8b42a08cb_overlay.jpg-420x315", price:36998, initPrice:37907, discount:909,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2025/kia/sportage/calgary/ab/70390271/?sale_class=used"},
+  {id:30, store:"South Trail Kia", title:"2024 Volkswagen Tiguan",          img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1119/4530/e3e30cba-e90a-48e8-8aef-faf03bde49f4_overlay.jpg-420x315", price:37108, initPrice:37907, discount:799,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2024/volkswagen/tiguan/calgary/ab/70378847/?sale_class=used"},
+  {id:31, store:"South Trail Kia", title:"2024 Kia Carnival",               img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3140/491848da-9d59-448d-9ad5-de70b9b3a547_overlay.jpg-420x315", price:38998, initPrice:40907, discount:1909, cat:"minivan", url:"https://www.southtrailkia.com/vehicles/2024/kia/carnival/calgary/ab/70280439/?sale_class=used"},
+  {id:32, store:"South Trail Kia", title:"2022 Mitsubishi Outlander",       img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202605/1219/4325/9f2e74a4-953d-4b6f-baf6-b2ca1776bfb4_overlay.jpg",          price:28998, initPrice:29907, discount:909,  cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2022/mitsubishi/outlander/calgary/ab/70115458/?sale_class=used"},
+  {id:33, store:"South Trail Kia", title:"2024 Dodge Durango",              img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1115/3132/af226480-432c-4ce4-a030-8c3f10cd2db5_overlay.jpg-420x315", price:48888, initPrice:52434, discount:3546, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2024/dodge/durango/calgary/ab/69687953/?sale_class=used"},
+  {id:34, store:"South Trail Kia", title:"2025 Kia Sorento Plug-In Hybrid", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1119/4530/fd836e63-09c7-4e01-8676-8cbcd26f2590_overlay.jpg-420x315", price:48998, initPrice:50907, discount:1909, cat:"suv",     url:"https://www.southtrailkia.com/vehicles/2025/kia/sorento-plug-in-hybrid/calgary/ab/70216664/?sale_class=used"},
+
+  // ── East Side Kia ──────────────────────────────────
+  {id:35, store:"East Side Kia", title:"2016 Kia Soul",            img:"https://prod.pictures.autoscout24.net/listing-images/5ec7f512-79af-4f14-b280-27bf388027b7_17913094-e85a-45b8-8f20-7037238a60ca.jpg/420x315.webp", price:6997,  initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2016/kia/soul/calgary/ab/69969140/"},
+  {id:36, store:"East Side Kia", title:"2016 Hyundai Santa Fe",    img:"https://prod.pictures.autoscout24.net/listing-images/cabcd6fc-83d3-4cfa-b46f-8f9dbd676d94_87a105a9-8f4c-4165-a91e-37349536c864.jpg/420x315.webp", price:8997,  initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2016/hyundai/santa-fe/calgary/ab/70064772/"},
+  {id:37, store:"East Side Kia", title:"2012 Kia Rio",             img:"https://prod.pictures.autoscout24.net/listing-images/004f4ba0-66cf-4bc5-bd11-cfdec28bc313_8846215b-de46-438b-8058-b12dbeab88a9.jpg/420x315.webp", price:8988,  initPrice:null,  discount:0,    cat:"sedan",   url:"https://www.eastsidekia.ca/vehicles/2012/kia/rio/calgary/ab/69728580/"},
+  {id:38, store:"East Side Kia", title:"2018 Hyundai Santa Fe",    img:"https://prod.pictures.autoscout24.net/listing-images/63217e66-fd66-466e-948f-552808e51fd5_5f7986aa-e0e8-4b17-a640-d22f1391391d.jpg/420x315.webp", price:10997, initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2018/hyundai/santa-fe/calgary/ab/68098281/"},
+  {id:39, store:"East Side Kia", title:"2018 Kia Rio",             img:"https://prod.pictures.autoscout24.net/listing-images/19e5a198-d55d-4a67-a9b6-1d3b661ab7b1_428548fd-2948-4325-94c0-06866d80149d.jpg/420x315.webp", price:9997,  initPrice:null,  discount:0,    cat:"sedan",   url:"https://www.eastsidekia.ca/vehicles/2018/kia/rio/calgary/ab/70354029/"},
+  {id:40, store:"East Side Kia", title:"2016 Nissan Juke",         img:"https://prod.pictures.autoscout24.net/listing-images/08250ee4-fa18-458f-9244-a8a030caad2c_0f8b2e50-1fe0-450c-9ea2-1891c17ef029.jpg/420x315.webp", price:9997,  initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2016/nissan/juke/calgary/ab/70327982/"},
+  {id:41, store:"East Side Kia", title:"2015 Kia Soul",            img:"https://prod.pictures.autoscout24.net/listing-images/a33cda89-a6af-41b6-b052-ba7315671378_5a59ac32-655d-436c-b56a-0cabb8f2c439.jpg/420x315.webp", price:10980, initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2015/kia/soul/calgary/ab/70223159/"},
+  {id:42, store:"East Side Kia", title:"2012 Kia Rondo",           img:"https://prod.pictures.autoscout24.net/listing-images/a3606949-53dd-468e-9d36-b06d4d741d40_89438ff3-aa25-4bfb-a4ec-062cf08129ed.jpg/420x315.webp", price:12990, initPrice:null,  discount:0,    cat:"minivan", url:"https://www.eastsidekia.ca/vehicles/2012/kia/rondo/calgary/ab/70386464/"},
+  {id:43, store:"East Side Kia", title:"2015 Kia Sportage",        img:"https://prod.pictures.autoscout24.net/listing-images/ca1fd850-b392-4356-b75b-f0bdf391033b_dfacbf43-dfdf-4a57-b318-933fede295d7.jpg/420x315.webp", price:12980, initPrice:16966, discount:3986, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2015/kia/sportage/calgary/ab/69615766/"},
+  {id:44, store:"East Side Kia", title:"2017 Kia Sportage",        img:"https://prod.pictures.autoscout24.net/listing-images/f9804d85-db3d-4177-a9e0-63d37305cbdb_923ccfd4-ad58-40fd-816d-e6d0b76c20a6.jpg/420x315.webp", price:13990, initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2017/kia/sportage/calgary/ab/70302394/"},
+  {id:45, store:"East Side Kia", title:"2015 Nissan Armada",       img:"https://prod.pictures.autoscout24.net/listing-images/35e844f3-6397-4cfd-a553-359d7066342d_686ceec8-a477-46bc-9b76-391dadabed6d.jpg/420x315.webp", price:13897, initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2015/nissan/armada/calgary/ab/70235686/"},
+  {id:46, store:"East Side Kia", title:"2016 Kia Forte",           img:"https://prod.pictures.autoscout24.net/listing-images/21ca7012-c490-416f-8158-6a389efacf95_14b7f980-568b-439f-88f5-56b43bcde876.jpg/420x315.webp", price:13790, initPrice:16421, discount:2631, cat:"sedan",   url:"https://www.eastsidekia.ca/vehicles/2016/kia/forte/calgary/ab/69797294/"},
+  {id:47, store:"East Side Kia", title:"2016 Nissan Rogue",        img:"https://prod.pictures.autoscout24.net/listing-images/e08f8bdb-8a17-4110-961d-24799e3ab846_86452fd2-1656-4016-9774-e1f18982c1f5.jpg/420x315.webp", price:14990, initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2016/nissan/rogue/calgary/ab/70327971/"},
+  {id:48, store:"East Side Kia", title:"2020 Volkswagen Tiguan",   img:"https://prod.pictures.autoscout24.net/listing-images/38c63910-953a-4ffd-b183-8c668c677584_87d72f45-44ea-4cea-9f35-0b4d88f964cf.jpg/420x315.webp", price:14997, initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2020/volkswagen/tiguan/calgary/ab/70269264/"},
+  {id:49, store:"East Side Kia", title:"2020 Kia Soul",            img:"https://prod.pictures.autoscout24.net/listing-images/03c4687b-9bcc-4561-b4c1-175c013f85f3_3ece37f7-b5d7-44e8-af19-ce5bcb803767.jpg/420x315.webp", price:18490, initPrice:22346, discount:3856, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2020/kia/soul/calgary/ab/69890693/"},
+  {id:50, store:"East Side Kia", title:"2022 Hyundai Elantra",     img:"https://prod.pictures.autoscout24.net/listing-images/0a45ed06-9e0e-49d5-950b-a722fa954478_d3e9500b-c9a1-4d6a-8922-23b6a6b54685.jpg/420x315.webp", price:17978, initPrice:23237, discount:5259, cat:"sedan",   url:"https://www.eastsidekia.ca/vehicles/2022/hyundai/elantra/calgary/ab/69797291/"},
+  {id:51, store:"East Side Kia", title:"2017 Honda Civic",         img:"https://prod.pictures.autoscout24.net/listing-images/dc5b1cf4-1c40-4cea-9ae2-3dd56b4b5b99_d9c26f86-4a0e-4552-96eb-fb78db82884d.jpg/420x315.webp", price:19980, initPrice:21741, discount:1761, cat:"sedan",   url:"https://www.eastsidekia.ca/vehicles/2017/honda/civic/calgary/ab/70087854/"},
+  {id:52, store:"East Side Kia", title:"2019 Kia Forte",           img:"https://prod.pictures.autoscout24.net/listing-images/9be57493-9c03-4737-93fe-30c06e08ff57_e98de15d-2aa6-41b7-b70e-0a91d88977db.jpg/420x315.webp", price:18990, initPrice:19563, discount:573,  cat:"sedan",   url:"https://www.eastsidekia.ca/vehicles/2019/kia/forte/calgary/ab/70280284/"},
+  {id:53, store:"East Side Kia", title:"2017 Kia Sorento",         img:"https://prod.pictures.autoscout24.net/listing-images/8d320ef6-1252-4c62-8b16-54e93d1409f6_ced6e65b-9a1e-43a3-adaf-282bddf16e37.jpg/420x315.webp", price:19990, initPrice:22556, discount:2566, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2017/kia/sorento/calgary/ab/70129004/"},
+  {id:54, store:"East Side Kia", title:"2023 Kia Seltos",          img:"https://prod.pictures.autoscout24.net/listing-images/5b050434-f2eb-4906-9093-79f1201b1a17_2c563a97-8ffb-4201-976b-a13be6ff16b2.jpg/420x315.webp", price:22890, initPrice:26971, discount:4081, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2023/kia/seltos/calgary/ab/70194248/"},
+  {id:55, store:"East Side Kia", title:"2020 Kia Sorento",         img:"https://prod.pictures.autoscout24.net/listing-images/b2069b25-2df1-4baf-b66b-1c77d62db688_964df9c8-8363-47e9-929c-67d2c5dcca03.jpg/420x315.webp", price:22990, initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2020/kia/sorento/calgary/ab/69086750/"},
+  {id:56, store:"East Side Kia", title:"2021 Jeep Cherokee",       img:"https://prod.pictures.autoscout24.net/listing-images/ba8dbced-0693-4718-8dda-3ea132105196_a324ffc8-391d-4af0-87e6-5d3c1066e340.jpg/420x315.webp", price:23995, initPrice:24313, discount:318,  cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2021/jeep/cherokee/calgary/ab/70083413/"},
+  {id:57, store:"East Side Kia", title:"2023 Kia Forte",           img:"https://prod.pictures.autoscout24.net/listing-images/25e98808-3588-4135-997e-64f66e502bbc_f447a35a-7124-4a0a-8e06-4113d99c51f9.jpg/420x315.webp", price:24995, initPrice:null,  discount:0,    cat:"sedan",   url:"https://www.eastsidekia.ca/vehicles/2023/kia/forte/calgary/ab/70367964/"},
+  {id:58, store:"East Side Kia", title:"2024 Kia Seltos",          img:"https://prod.pictures.autoscout24.net/listing-images/681e3b32-513e-41b7-a873-d60cc3918030_78c07040-f122-446a-8d22-e1f60b522ac3.jpg/420x315.webp", price:24998, initPrice:30554, discount:5556, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2024/kia/seltos/calgary/ab/68716814/"},
+  {id:59, store:"East Side Kia", title:"2017 Audi Q7",             img:"https://prod.pictures.autoscout24.net/listing-images/d186c065-87ee-4046-898f-6949d6ca2b46_fa82547c-1c07-4ea3-b600-98307d3261ff.jpg/420x315.webp", price:27995, initPrice:28795, discount:800,  cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2017/audi/q7/calgary/ab/70269263/"},
+  {id:60, store:"East Side Kia", title:"2024 Hyundai Kona",        img:"https://prod.pictures.autoscout24.net/listing-images/cfb56fa9-b71e-4803-8321-8907838435de_935754c4-de2a-45e8-887a-354f1a1cbebe.jpg/420x315.webp", price:27790, initPrice:null,  discount:0,    cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2024/hyundai/kona/calgary/ab/70327976/"},
+  {id:61, store:"East Side Kia", title:"2025 Kia K4",              img:"https://prod.pictures.autoscout24.net/listing-images/ccf15774-bce3-4430-a87f-04d6d746edb0_13c50ff1-044b-4bf9-9e6c-309a78aaadc6.jpg/420x315.webp", price:29990, initPrice:null,  discount:0,    cat:"sedan",   url:"https://www.eastsidekia.ca/vehicles/2025/kia/k4/calgary/ab/66049249/"},
+  {id:62, store:"East Side Kia", title:"2025 Kia Sportage",        img:"https://prod.pictures.autoscout24.net/listing-images/02540e12-7144-4647-91a6-1dbf411c0d7e_f78edbe9-fffe-4cb0-9061-69cead6ae470.jpg/420x315.webp", price:31410, initPrice:35494, discount:4084, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2025/kia/sportage/calgary/ab/63645817/"},
+  {id:63, store:"East Side Kia", title:"2026 Kia Seltos",          img:"https://prod.pictures.autoscout24.net/listing-images/dbf85391-91e0-4117-aede-5b07616eb12f_1656ce58-1bb0-4cc8-b4f9-89c0adfd783f.jpg/420x315.webp", price:31998, initPrice:36545, discount:4547, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2026/kia/seltos/calgary/ab/66918552/"},
+  {id:64, store:"East Side Kia", title:"2020 Honda CR-V",          img:"https://prod.pictures.autoscout24.net/listing-images/d3ba935a-af23-4ab7-a2bd-eb21a6e8a582_e07a5b67-bfe0-4639-8126-9724bcbfbef6.jpg/420x315.webp", price:29998, initPrice:35745, discount:5747, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2020/honda/cr-v/calgary/ab/69797298/"},
+  {id:65, store:"East Side Kia", title:"2026 Kia Seltos",          img:"https://prod.pictures.autoscout24.net/listing-images/8663954a-b73b-445c-b1a2-cf789498ab21_95e8aee6-ac22-4cdb-8c19-522429365362.jpg/420x315.webp", price:33988, initPrice:36545, discount:2557, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2026/kia/seltos/calgary/ab/70157342/"},
+  {id:66, store:"East Side Kia", title:"2026 Kia Seltos",          img:"https://prod.pictures.autoscout24.net/listing-images/b59945e3-e16a-4015-a407-3f69055e2e31_266d50f9-2bca-4021-a0d9-91badbf8f9e9.jpg/420x315.webp", price:34398, initPrice:36545, discount:2147, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2026/kia/seltos/calgary/ab/69995975/"},
+  {id:67, store:"East Side Kia", title:"2025 Gmc Terrain",         img:"https://prod.pictures.autoscout24.net/listing-images/c4165962-3c95-4e90-bd5c-4f4aaa869a81_d006f869-39ea-43ee-92c1-152b13f5ff77.jpg/420x315.webp", price:35890, initPrice:40551, discount:4661, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2025/gmc/terrain/calgary/ab/69969145/"},
+  {id:68, store:"East Side Kia", title:"2024 Kia Carnival",        img:"https://prod.pictures.autoscout24.net/listing-images/465f5ce7-73a8-42e4-bdcf-7a513a595526_2cf3d7fb-4918-4aa4-8038-0dc80e4831a9.jpg/420x315.webp", price:37890, initPrice:43782, discount:5892, cat:"minivan", url:"https://www.eastsidekia.ca/vehicles/2024/kia/carnival/calgary/ab/70111275/"},
+  {id:69, store:"East Side Kia", title:"2024 Jeep Grand Cherokee", img:"https://prod.pictures.autoscout24.net/listing-images/fdad5f89-3b71-48ec-842d-33921ebde5dd_789b989d-2b60-4b7b-b7b4-187f5e304b7f.jpg/420x315.webp", price:48390, initPrice:51332, discount:2942, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2024/jeep/grand-cherokee/calgary/ab/69998814/"},
+  {id:70, store:"East Side Kia", title:"2024 Kia Sorento",         img:"https://prod.pictures.autoscout24.net/listing-images/98d4d185-b825-4c76-8613-c5f745af307b_d8e14b72-c05f-46d4-9e7a-80ac723fc4b2.jpg/420x315.webp", price:45990, initPrice:49852, discount:3862, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2024/kia/sorento/calgary/ab/70073085/"},
+  {id:71, store:"East Side Kia", title:"2024 Kia Telluride",       img:"https://prod.pictures.autoscout24.net/listing-images/0dc36cb8-1acc-4b07-8b6e-29ad1e40a482_2c35bbf8-d56f-447b-871e-387ee73ed327.jpg/420x315.webp", price:54970, initPrice:56328, discount:1358, cat:"suv",     url:"https://www.eastsidekia.ca/vehicles/2024/kia/telluride/calgary/ab/70152376/"},
+  {id:72, store:"East Side Kia", title:"2026 Kia Carnival",        img:"https://prod.pictures.autoscout24.net/listing-images/b7057a8b-6190-4d85-880c-e7935566c19d_4ae80567-0596-4bbb-8144-b9fee0123986.jpg/420x315.webp", price:59980, initPrice:63552, discount:3572, cat:"minivan", url:"https://www.eastsidekia.ca/vehicles/2026/kia/carnival/calgary/ab/70194249/"},
+
+  // ── CH Chrysler Dodge Jeep Ram ──────────────────────
+  {id:73, store:"CH Chrysler Dodge Jeep Ram", title:"2024 DODGE HORNET R/T PHEV", img:null, price:49994, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/dodge/hornet/calgary/ab/60017077/"},
+  {id:74, store:"CH Chrysler Dodge Jeep Ram", title:"2017 Jeep Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/9c8a2834-4a45-40de-801f-a0a5c1168208_overlay.jpg-420x315", price:12495, initPrice:15995, discount:-3500, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2017/jeep/cherokee/calgary/ab/69900177/"},
+  {id:75, store:"CH Chrysler Dodge Jeep Ram", title:"2018 Jeep Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/8a1f4110-21b5-4681-a37a-f83c514a4012_overlay.jpg-420x315", price:13495, initPrice:17995, discount:-4500, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2018/jeep/cherokee/calgary/ab/69276151/"},
+  {id:76, store:"CH Chrysler Dodge Jeep Ram", title:"2012 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/bf16bcfa-19e1-4209-aec6-35bdb6ac9d32_overlay.jpg-420x315", price:14995, initPrice:17995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2012/jeep/grand-cherokee/calgary/ab/70286366/"},
+  {id:77, store:"CH Chrysler Dodge Jeep Ram", title:"2018 Hyundai Santa Fe Sport", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/8eba61e6-a9e1-41be-b2ac-9016120f412c_overlay.jpg-420x315", price:14995, initPrice:17995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2018/hyundai/santa-fe-sport/calgary/ab/70324695/"},
+  {id:78, store:"CH Chrysler Dodge Jeep Ram", title:"2015 Ram 1500", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/d7f48976-5034-44d4-9b77-dae0bd997aca_overlay.jpg-420x315", price:17995, initPrice:20995, discount:-3000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2015/ram/1500/calgary/ab/70357393/"},
+  {id:79, store:"CH Chrysler Dodge Jeep Ram", title:"2020 Ram 1500 Classic", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1223/0119/64a3a252-405a-4dc3-887f-fc22ccc9b8ba_overlay.jpg-420x315", price:19995, initPrice:23995, discount:-4000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2020/ram/1500-classic/calgary/ab/70161776/"},
+  {id:80, store:"CH Chrysler Dodge Jeep Ram", title:"2022 Mitsubishi Eclipse Cross", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/91ee45f7-05ab-49d0-9693-17b5f5261360_overlay.jpg-420x315", price:21995, initPrice:26995, discount:-5000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2022/mitsubishi/eclipse-cross/calgary/ab/69242858/"},
+  {id:81, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Nissan Sentra 1.8l", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1302/4341/9e43b311-d514-4f2e-b64d-3d0cb4595b18_overlay.jpg-420x315", price:22995, initPrice:24995, discount:-2000, cat:"sedan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/nissan/sentra--1.8l-/calgary/ab/70383989/"},
+  {id:82, store:"CH Chrysler Dodge Jeep Ram", title:"2020 Audi Q3", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/71eff8c1-f02e-489c-ab72-be43c0fb30d1_overlay.jpg-420x315", price:23995, initPrice:24995, discount:-1000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2020/audi/q3/calgary/ab/70344554/"},
+  {id:83, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Ford Escape", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/c904674b-4350-4a56-9e15-f834c5b07fc8_overlay.jpg-420x315", price:24495, initPrice:28995, discount:-4500, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/ford/escape/calgary/ab/69181403/"},
+  {id:84, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Kia K4", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1219/0128/89bc158c-2f35-48f4-b360-fbee55e0c01c_overlay.jpg-420x315", price:24495, initPrice:26995, discount:-2500, cat:"sedan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/kia/k4/calgary/ab/70371634/"},
+  {id:85, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Kia K4", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1219/2057/90044ce7-dbd2-4e16-b95b-bbdca0427f95_overlay.jpg-420x315", price:24495, initPrice:26995, discount:-2500, cat:"sedan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/kia/k4/calgary/ab/70371636/"},
+  {id:86, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Nissan Kicks Play", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/c8e751bd-c1f0-43bd-bd92-351b38fa03a9_overlay.jpg-420x315", price:24888, initPrice:26995, discount:-2107, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/nissan/kicks-play/calgary/ab/69536930/"},
+  {id:87, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Nissan Sentra", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/bcf83b6a-4a0c-48ca-885e-4c3649dc2234_overlay.jpg-420x315", price:25995, initPrice:28995, discount:-3000, cat:"sedan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/nissan/sentra/calgary/ab/70344552/"},
+  {id:88, store:"CH Chrysler Dodge Jeep Ram", title:"2017 Ford F 150", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/09801fa5-afc9-4aab-af3f-ea49558e72e4_overlay.jpg-420x315", price:26995, initPrice:29995, discount:-3000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2017/ford/f-150/calgary/ab/70312845/"},
+  {id:89, store:"CH Chrysler Dodge Jeep Ram", title:"2019 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1106/0752/92ccb5fb-51ce-47b3-915b-7706eab01142_overlay.jpg-420x315", price:27495, initPrice:30995, discount:-3500, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2019/jeep/grand-cherokee/calgary/ab/70108762/"},
+  {id:90, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Nissan Rogue", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1406/0820/2a1bdc48-b991-46ea-a61f-ac0f41cdda63_overlay.jpg-420x315", price:27875, initPrice:32995, discount:-5120, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/nissan/rogue/calgary/ab/70025648/"},
+  {id:91, store:"CH Chrysler Dodge Jeep Ram", title:"2018 Jeep Wrangler Unlimited", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/6f8a85f9-4cdc-4d33-b4b9-03c621bc1c53_overlay.jpg-420x315", price:27995, initPrice:30995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2018/jeep/wrangler-unlimited/calgary/ab/69359614/"},
+  {id:92, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Jeep Compass", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/d52b7639-2025-486f-8c95-fc01611ce8aa_overlay.jpg-420x315", price:27995, initPrice:34995, discount:-7000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/jeep/compass/calgary/ab/69431759/"},
+  {id:93, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Nissan Rogue", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1106/0751/cae865b2-3c8d-4436-990b-250f8352b987_overlay.jpg-420x315", price:28495, initPrice:32995, discount:-4500, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/nissan/rogue/calgary/ab/70025646/"},
+  {id:94, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Nissan Rogue", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1302/4341/f2077223-0f2d-44ab-8bf8-4870f4a183e2_overlay.jpg-420x315", price:28495, initPrice:29995, discount:-1500, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/nissan/rogue/calgary/ab/70383988/"},
+  {id:95, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Nissan Kicks", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/f728bb2c-0140-491c-9893-cd91cb1b3672_overlay.jpg-420x315", price:28877, initPrice:30995, discount:-2118, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/nissan/kicks/calgary/ab/69536933/"},
+  {id:96, store:"CH Chrysler Dodge Jeep Ram", title:"2020 Ram Promaster Cargo Van", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1106/0752/3b231ae5-7362-4e34-9343-065fa8f717ce_overlay.jpg-420x315", price:29495, initPrice:32995, discount:-3500, cat:"minivan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2020/ram/promaster-cargo-van/calgary/ab/70344551/"},
+  {id:97, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Jeep Compass", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/d5a08022-128c-4dad-ac94-c5ed2bf8e5c5_overlay.jpg-420x315", price:29995, initPrice:33995, discount:-4000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/jeep/compass/calgary/ab/69352935/"},
+  {id:98, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Nissan Rogue", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/d3a883f7-8d4d-4f66-8dc1-c02f43cddbbf_overlay.jpg-420x315", price:29995, initPrice:32995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/nissan/rogue/calgary/ab/70065256/"},
+  {id:99, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Kia Seltos", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1302/4341/4f219b7b-09a4-48f1-9827-2260ddf880d8_overlay.jpg-420x315", price:29998, initPrice:31995, discount:-1997, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/kia/seltos/calgary/ab/70383986/"},
+  {id:100, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Nissan Rogue", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1219/2542/16f05e96-314b-4928-8b95-962489ab87dc_overlay.jpg-420x315", price:30995, initPrice:32995, discount:-2000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/nissan/rogue/calgary/ab/70371635/"},
+  {id:101, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Hyundai Tucson", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1302/4338/86e649a9-0308-4603-894d-4d3812b22f68_overlay.jpg-420x315", price:30998, initPrice:31995, discount:-997, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/hyundai/tucson/calgary/ab/70383990/"},
+  {id:102, store:"CH Chrysler Dodge Jeep Ram", title:"2019 Ram 1500 Classic", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/ac647901-c7b8-4a2e-abc8-d04cbb3c5de5_overlay.jpg-420x315", price:31995, initPrice:34995, discount:-3000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2019/ram/1500-classic/calgary/ab/70312844/"},
+  {id:103, store:"CH Chrysler Dodge Jeep Ram", title:"2021 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1219/5729/ea82be34-cbc4-44ed-a0e2-606c84adc9dc_overlay.jpg-420x315", price:32995, initPrice:36995, discount:-4000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2021/jeep/wrangler/calgary/ab/69924395/"},
+  {id:104, store:"CH Chrysler Dodge Jeep Ram", title:"2023 Jeep Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1306/0738/70e3c682-9e6c-4f3a-aaad-13f2da43dd0f_overlay.jpg-420x315", price:33995, initPrice:36995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2023/jeep/cherokee/calgary/ab/69848567/"},
+  {id:105, store:"CH Chrysler Dodge Jeep Ram", title:"2022 Jeep Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/7c707e62-1555-44fa-8bca-6844686662d7_overlay.jpg-420x315", price:33995, initPrice:36995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2022/jeep/cherokee/calgary/ab/70357391/"},
+  {id:106, store:"CH Chrysler Dodge Jeep Ram", title:"2021 Ram Ram Pickup 1500 Classic", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1218/2542/6f081f98-d228-42c3-a4fc-76b32036604d_overlay.jpg-420x315", price:33995, initPrice:36995, discount:-3000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2021/ram/ram-pickup-1500-classic/calgary/ab/70435799/"},
+  {id:107, store:"CH Chrysler Dodge Jeep Ram", title:"2021 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/650ec257-a2e1-49b6-b66b-8fae2783b755_overlay.jpg-420x315", price:34895, initPrice:39995, discount:-5100, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2021/jeep/wrangler/calgary/ab/69276152/"},
+  {id:108, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Hyundai Santa Fe", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/a890e2ee-0ffc-44b5-99b8-5a65a624a2a1_overlay.jpg-420x315", price:35995, initPrice:38995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/hyundai/santa-fe/calgary/ab/69629426/"},
+  {id:109, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Compass", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/4f00ec61-5d4b-49a3-89e1-fa08b2a32bef_overlay.jpg-420x315", price:36895, initPrice:49975, discount:-13080, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/compass/calgary/ab/64135314/"},
+  {id:110, store:"CH Chrysler Dodge Jeep Ram", title:"2021 Dodge Durango", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/f63b2483-53c4-4a61-8423-d9e6b0e06c47_overlay.jpg-420x315", price:36995, initPrice:37995, discount:-1000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2021/dodge/durango/calgary/ab/70357392/"},
+  {id:111, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Compass", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1306/0737/efc299f5-a263-4d48-a06d-af3cd1565752_overlay.jpg-420x315", price:37437, initPrice:39090, discount:-1653, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/compass/calgary/ab/66962430/"},
+  {id:112, store:"CH Chrysler Dodge Jeep Ram", title:"2026 Jeep Compass", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0807/195e3866-9eaa-4235-8e40-85fc5c32bc55_overlay.jpg-420x315", price:37490, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2026/jeep/compass/calgary/ab/67399278/"},
+  {id:113, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Jeep Grand Cherokee L", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1302/4338/a4382088-5f75-4469-ae9d-acaed06cc438_overlay.jpg-420x315", price:39995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/jeep/grand-cherokee-l/calgary/ab/70383985/"},
+  {id:114, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1302/4340/c7b034f8-79b5-4b2f-99d6-e9a9cfa436a8_overlay.jpg-420x315", price:39995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/jeep/grand-cherokee/calgary/ab/70383987/"},
+  {id:115, store:"CH Chrysler Dodge Jeep Ram", title:"2020 Jeep Wrangler Unlimited", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/fdd42185-1912-41ea-980c-358269bcc02b_overlay.jpg-420x315", price:40995, initPrice:43995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2020/jeep/wrangler-unlimited/calgary/ab/70215599/"},
+  {id:116, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Toyota Camry", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1410/2416/b46b3127-cf2c-4541-b346-363134281fc1_overlay.jpg-420x315", price:40995, initPrice:null, discount:null, cat:"sedan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/toyota/camry/calgary/ab/70460814/"},
+  {id:117, store:"CH Chrysler Dodge Jeep Ram", title:"2026 Jeep Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/8745539f-3c4a-4026-a1ca-9ce04f3b0d6c_overlay.jpg-420x315", price:41890, initPrice:48990, discount:-7100, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2026/jeep/cherokee/calgary/ab/69377341/"},
+  {id:118, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Bmw X1", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/552c004e-f5a4-4ee0-8382-44b9ff7afdc2_overlay.jpg-420x315", price:42995, initPrice:44995, discount:-2000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/bmw/x1/calgary/ab/70173445/"},
+  {id:119, store:"CH Chrysler Dodge Jeep Ram", title:"2023 Jeep Grand Cherokee 4xe", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0812/977128a2-ad9a-4572-ac4e-b5cc7fbe5795_overlay.jpg-420x315", price:42995, initPrice:45995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2023/jeep/grand-cherokee-4xe/calgary/ab/70253968/"},
+  {id:120, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1219/0611/77f5ce81-358e-4ae0-951d-6b54ba31975f_overlay.jpg-420x315", price:42995, initPrice:44995, discount:-2000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/jeep/grand-cherokee/calgary/ab/70371637/"},
+  {id:121, store:"CH Chrysler Dodge Jeep Ram", title:"2026 Jeep Compass", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/3b69610c-32a9-4d84-8276-a653860bfa09_overlay.jpg-420x315", price:43680, initPrice:48680, discount:-5000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2026/jeep/compass/calgary/ab/67399256/"},
+  {id:122, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Dodge Hornet", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/2089690b-496e-4fd1-a414-fab27a588b4b_overlay.jpg-420x315", price:43995, initPrice:71050, discount:-27055, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/dodge/hornet/calgary/ab/60319272/"},
+  {id:123, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Jeep Grand Cherokee L", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0810/b287a76b-5b41-4640-b6ee-ce8ce3a88895_overlay.jpg-420x315", price:43995, initPrice:47995, discount:-4000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/jeep/grand-cherokee-l/calgary/ab/70052062/"},
+  {id:124, store:"CH Chrysler Dodge Jeep Ram", title:"2026 Jeep Compass", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/9375a98f-3695-4eaf-bf20-85a24fbfed1a_overlay.jpg-420x315", price:44675, initPrice:49675, discount:-5000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2026/jeep/compass/calgary/ab/67399264/"},
+  {id:125, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Compass", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/20f4e410-2ff4-4d83-9e69-b1633abbba41_overlay.jpg-420x315", price:44925, initPrice:52425, discount:-7500, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/compass/calgary/ab/66314524/"},
+  {id:126, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Dodge Durango", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/38bac795-2672-4954-b03e-da31c698b7b8_overlay.jpg-420x315", price:44995, initPrice:48995, discount:-4000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/dodge/durango/calgary/ab/68449241/"},
+  {id:127, store:"CH Chrysler Dodge Jeep Ram", title:"2021 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/b010fcc0-44c8-439b-b46d-a4c9aeb82360_overlay.jpg-420x315", price:42995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2021/jeep/wrangler/calgary/ab/69980111/"},
+  {id:128, store:"CH Chrysler Dodge Jeep Ram", title:"2023 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/9271a305-d7ea-4f7a-a010-e75a49125f6c_overlay.jpg-420x315", price:44995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2023/jeep/wrangler/calgary/ab/70228650/"},
+  {id:129, store:"CH Chrysler Dodge Jeep Ram", title:"2023 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/a3926012-6cd5-4c27-9422-978dbfca046e_overlay.jpg-420x315", price:45995, initPrice:47995, discount:-2000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2023/jeep/wrangler/calgary/ab/70134335/"},
+  {id:130, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Chrysler Grand Caravan", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/db444ee4-3358-4175-849b-c6b897e5ba2e_overlay.jpg-420x315", price:46995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/chrysler/grand-caravan/calgary/ab/70273112/"},
+  {id:131, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Chrysler Grand Caravan", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/c654628f-03db-4965-9ea0-e3de6139eee0_overlay.jpg-420x315", price:46995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/chrysler/grand-caravan/calgary/ab/70286367/"},
+  {id:132, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Chrysler Grand Caravan", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/a7494f49-dc07-4d47-a48c-92ddee236b13_overlay.jpg-420x315", price:46995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/chrysler/grand-caravan/calgary/ab/70286368/"},
+  {id:133, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Mitsubishi Outlander Plug In Hybrid", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0812/4401fd94-83cc-45a3-aa04-cd77205c89a3_overlay.jpg-420x315", price:47995, initPrice:52995, discount:-5000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/mitsubishi/outlander-plug-in-hybrid/calgary/ab/69766901/"},
+  {id:134, store:"CH Chrysler Dodge Jeep Ram", title:"2023 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/e6125c89-402e-41d4-8f44-5fdf25cb2d09_overlay.jpg-420x315", price:48995, initPrice:51995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2023/jeep/wrangler/calgary/ab/70344555/"},
+  {id:135, store:"CH Chrysler Dodge Jeep Ram", title:"2026 Jeep Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/7306276d-9404-482f-b263-2fb6c8a823d3_overlay.jpg-420x315", price:49080, initPrice:52496, discount:-3416, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2026/jeep/cherokee/calgary/ab/68624515/"},
+  {id:136, store:"CH Chrysler Dodge Jeep Ram", title:"2026 Jeep Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/6356369d-41d8-480f-8b8c-dc3d3a1488c1_overlay.jpg-420x315", price:49995, initPrice:54280, discount:-4285, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2026/jeep/cherokee/calgary/ab/69377406/"},
+  {id:137, store:"CH Chrysler Dodge Jeep Ram", title:"2023 Jeep Gladiator", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/a6603c98-5b7d-4d93-b21e-ad5b3d002273_overlay.jpg-420x315", price:49995, initPrice:null, discount:null, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2023/jeep/gladiator/calgary/ab/70065257/"},
+  {id:138, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Dodge Durango", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/477e36e4-a4aa-46fd-a71b-8b218008b209_overlay.jpg-420x315", price:49995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/dodge/durango/calgary/ab/70108761/"},
+  {id:139, store:"CH Chrysler Dodge Jeep Ram", title:"2022 Ram 2500", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1306/0738/f4a1afed-ca43-41cd-97cf-a88a6da36bc5_overlay.jpg-420x315", price:50995, initPrice:52995, discount:-2000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2022/ram/2500/calgary/ab/70435798/"},
+  {id:140, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/77c1038d-3bf7-4204-915e-3c1cb400c388_overlay.jpg-420x315", price:52495, initPrice:69550, discount:-17055, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/grand-cherokee/calgary/ab/64500798/"},
+  {id:141, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Dodge Durango", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1302/4345/393ccd76-0078-4b9a-800a-988e8d98b303_overlay.jpg-420x315", price:52995, initPrice:54995, discount:-2000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/dodge/durango/calgary/ab/70396849/"},
+  {id:142, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Audi Q5", img:null, price:53995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/audi/q5/calgary/ab/70467212/"},
+  {id:143, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Ram Promaster Window Van", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/9ea155ff-5a6f-4e13-bc21-f7e023c9600f_overlay.jpg-420x315", price:54995, initPrice:70995, discount:-16000, cat:"minivan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/ram/promaster-window-van/calgary/ab/64357517/"},
+  {id:144, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Dodge Durango", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1106/0752/99e4ba69-4a44-4e71-9ee9-b881f4134211_overlay.jpg-420x315", price:54995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/dodge/durango/calgary/ab/70141295/"},
+  {id:145, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/fcf5e0b8-7ae3-4109-9d69-4835646d5bbb_overlay.jpg-420x315", price:54995, initPrice:58995, discount:-4000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/wrangler/calgary/ab/70173444/"},
+  {id:146, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Jeep Wrangler 4xe", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1406/0820/384d6e75-2acf-4a12-922c-99dcc757de8f_overlay.jpg-420x315", price:55995, initPrice:58995, discount:-3000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/jeep/wrangler-4xe/calgary/ab/70273113/"},
+  {id:147, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0812/c263a033-258e-4a0c-ac71-b5e308db26fd_overlay.jpg-420x315", price:56995, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/wrangler/calgary/ab/69286741/"},
+  {id:148, store:"CH Chrysler Dodge Jeep Ram", title:"2022 Chevrolet Silverado 1500", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/6e0eb847-92f2-4168-9056-e271db05f988_overlay.jpg-420x315", price:56995, initPrice:59995, discount:-3000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2022/chevrolet/silverado-1500/calgary/ab/69876204/"},
+  {id:149, store:"CH Chrysler Dodge Jeep Ram", title:"2022 Ram 1500", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1306/0738/c3bd8e96-9421-4b52-9271-a9769a7558e3_overlay.jpg-420x315", price:56995, initPrice:59995, discount:-3000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2022/ram/1500/calgary/ab/70344556/"},
+  {id:150, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Ram Promaster Cargo Van", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1206/0902/8353b55b-8ca7-4196-a58f-0b129bcea6b3_overlay.jpg-420x315", price:57995, initPrice:81200, discount:-23205, cat:"minivan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/ram/promaster-cargo-van/calgary/ab/66028790/"},
+  {id:151, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Ram 1500", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1106/0751/fbcf417d-a30b-4e4d-acf0-f15c1095d055_overlay.jpg-420x315", price:59995, initPrice:73850, discount:-13855, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/ram/1500/calgary/ab/64448147/"},
+  {id:152, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/be6fb150-125f-4669-b822-d1d6ba5082bf_overlay.jpg-420x315", price:59995, initPrice:78505, discount:-18510, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/wrangler/calgary/ab/65114769/"},
+  {id:153, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0808/b6db7fb5-3e6d-4a66-9c1f-7c2818ec7b85_overlay.jpg-420x315", price:59995, initPrice:75370, discount:-15375, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/wrangler/calgary/ab/66048321/"},
+  {id:154, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Ram Promaster Window Van", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0810/f99b434c-0444-452a-9e2e-a149df32afc8_overlay.jpg-420x315", price:59995, initPrice:70960, discount:-10965, cat:"minivan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/ram/promaster-window-van/calgary/ab/69431750/"},
+  {id:155, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Chevrolet Silverado 1500", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1406/0820/91ff42c7-021f-4d04-9c11-786175d6d7ae_overlay.jpg-420x315", price:59995, initPrice:61995, discount:-2000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/chevrolet/silverado-1500/calgary/ab/69536935/"},
+  {id:156, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1406/0820/3bd3cf04-3944-4980-b05b-47e51f249c70_overlay.jpg-420x315", price:63505, initPrice:78505, discount:-15000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/wrangler/calgary/ab/65114773/"},
+  {id:157, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/e50a99c7-6d61-43d2-9578-6c4a4b35bceb_overlay.jpg-420x315", price:63995, initPrice:78535, discount:-14540, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/grand-cherokee/calgary/ab/66787867/"},
+  {id:158, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Ram Promaster Cargo Van", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/e7c9c943-0da1-4fea-9129-a0079b858bc3_overlay.jpg-420x315", price:64650, initPrice:null, discount:null, cat:"minivan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/ram/promaster-cargo-van/calgary/ab/66306217/"},
+  {id:159, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0807/62b2ebc0-f7ec-4d86-83ea-c04ff14e9222_overlay.jpg-420x315", price:64940, initPrice:77940, discount:-13000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/grand-cherokee/calgary/ab/67701009/"},
+  {id:160, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1106/0751/e625ff3b-fcfa-4e49-bcc2-99b62a7d2b58_overlay.jpg-420x315", price:64995, initPrice:78535, discount:-13540, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/grand-cherokee/calgary/ab/66787868/"},
+  {id:161, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/03de2fa1-f089-4514-ad8c-c9f9ec96b3d5_overlay.jpg-420x315", price:64995, initPrice:68040, discount:-3045, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/grand-cherokee/calgary/ab/66787877/"},
+  {id:162, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/9a67d4c9-1833-4b3e-bc5a-e72ff911b870_overlay.jpg-420x315", price:65535, initPrice:78535, discount:-13000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/grand-cherokee/calgary/ab/66946071/"},
+  {id:163, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Grand Cherokee L", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1306/0738/423f2e5f-d272-4007-9e72-393e9253058c_overlay.jpg-420x315", price:65995, initPrice:81345, discount:-15350, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/grand-cherokee-l/calgary/ab/66214164/"},
+  {id:164, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/5a207328-2ae4-4710-b5a2-82a77070f972_overlay.jpg-420x315", price:66145, initPrice:81145, discount:-15000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/wrangler/calgary/ab/65353750/"},
+  {id:165, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Ram Promaster Cargo Van", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1106/0752/73f1badc-1e52-478c-89dc-9c64967a1fa4_overlay.jpg-420x315", price:68160, initPrice:null, discount:null, cat:"minivan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/ram/promaster-cargo-van/calgary/ab/69629427/"},
+  {id:166, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Ram 1500", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/1cc27f1f-80b8-429e-a265-7a9c4d221e60_overlay.jpg-420x315", price:70995, initPrice:73995, discount:-3000, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/ram/1500/calgary/ab/70197161/"},
+  {id:167, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/b97285a8-1e06-4124-a96e-6cdfee731c31_overlay.jpg-420x315", price:71045, initPrice:73045, discount:-2000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/wrangler/calgary/ab/65925261/"},
+  {id:168, store:"CH Chrysler Dodge Jeep Ram", title:"2024 Ram 2500", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1302/4347/b47791bc-21f9-4f13-a066-ecde54b044d5_overlay.jpg-420x315", price:72995, initPrice:null, discount:null, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2024/ram/2500/calgary/ab/70413765/"},
+  {id:169, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0810/652d5c04-8ef5-411b-b959-5cf778590c1c_overlay.jpg-420x315", price:74995, initPrice:92150, discount:-17155, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/grand-cherokee/calgary/ab/67098228/"},
+  {id:170, store:"CH Chrysler Dodge Jeep Ram", title:"2025 Jeep Wrangler", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/5b834a9e-6850-4116-8d87-8a8dffc91979_overlay.jpg-420x315", price:79145, initPrice:81145, discount:-2000, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2025/jeep/wrangler/calgary/ab/65353749/"},
+  {id:171, store:"CH Chrysler Dodge Jeep Ram", title:"2026 Jeep Grand Cherokee", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0815/48b1a06f-8b3c-4f8f-be71-929a7a830f36_overlay.jpg-420x315", price:79575, initPrice:null, discount:null, cat:"suv", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2026/jeep/grand-cherokee/calgary/ab/69038644/"},
+  {id:172, store:"CH Chrysler Dodge Jeep Ram", title:"2020 Mercedes Benz Sprinter Cargo Van", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/9c8a2834-4a45-40de-801f-a0a5c1168208_overlay.jpg-420x315", price:12495, initPrice:15995, discount:-3500, cat:"minivan", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2020/mercedes-benz/sprinter-cargo-van/calgary/ab/70435800/"},
+  {id:173, store:"CH Chrysler Dodge Jeep Ram", title:"2021 Gmc Sierra 1500", img:"https://1s-photomanager-prd.autotradercdn.ca/photos/import/202606/1006/0814/9c8a2834-4a45-40de-801f-a0a5c1168208_overlay.jpg-420x315", price:12495, initPrice:15995, discount:-3500, cat:"truck", url:"https://www.chchryslerdodgejeepram.ca/vehicles/2021/gmc/sierra-1500/calgary/ab/70460815/"},
+];
+
+
+
+/* ── RENDER VEHICLES ─────────────────────────────── */
+function fmt(n){return n?'$'+n.toLocaleString('en-CA'):''}
+
+const PAGE_SIZE = 12;
+let currentFilter = 'all';
+let searchQuery = '';
+let visibleCount = PAGE_SIZE;
+
+function matchesFilter(v, f){
+  if(f==='all') return true;
+  return v.cat === f;
+}
+
+function matchesSearch(v, q){
+  if(!q) return true;
+  return v.title.toLowerCase().includes(q.toLowerCase());
+}
+
+function buildCard(v){
+  const imgHtml=v.img
+    ?`<img class="vcard-img" src="${v.img}" alt="${v.title}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=vcard-img-placeholder>🚗</div>'">`
+    :`<div class="vcard-img-placeholder">🚗</div>`;
+  let priceHtml='';
+  if(v.price){
+    priceHtml=`<div class="price-block">
+      <div class="price-confirmed-tag">Confirmed Price</div>
+      ${v.initPrice?`<div class="price-row"><span class="price-row-label">Original</span><span class="price-init">${fmt(v.initPrice)}</span></div>`:''}
+      ${v.discount?`<div class="price-row"><span class="price-row-label">You Save</span><span class="price-discount">−${fmt(v.discount)}</span></div>`:''}
+      <div class="price-row"><span class="price-row-label">Sale Price</span><span class="price-final">${fmt(v.price)}</span></div>
+    </div>`;
+  }else{
+    priceHtml=`<div class="price-call">
+      <a class="price-call-btn" href="${PHONE}">📞 Call for Price</a>
+      <div class="price-call-sub">Tap to call — ask about financing</div>
+    </div>`;
+  }
+  const card=document.createElement('div');
+  card.className='vcard';
+  card.dataset.cat=v.cat;
+  card.innerHTML=`
+    <div class="vcard-img-wrap">
+      ${imgHtml}
+      <div class="vcard-badge">#${String(v.id).padStart(2,'0')} · ${v.cat.toUpperCase()}</div>
+    </div>
+    <div class="vcard-body">
+      <div class="vcard-title">${v.title}</div>
+      ${priceHtml}
+      <div class="vcard-actions">
+        <button class="btn-apply" onclick="applyForVehicle(${v.id})">Apply for Financing</button>
+      </div>
+    </div>`;
+  return card;
+}
+
+function renderVehicles(list){
+  // populate the "vehicle of interest" dropdown once, from the full list
+  const sel=document.getElementById('vehicleOfInterest');
+  sel.innerHTML='<option value="">— Select a vehicle (optional) —</option>';
+  list.forEach(v=>{
+    const opt=document.createElement('option');
+    opt.value=v.id; // store id so we can look up store/dealerLocation later
+    opt.textContent='#'+v.id+' — '+v.title+(v.price?' — '+fmt(v.price):'');
+    sel.appendChild(opt);
+  });
+  sel.addEventListener('change', ()=>{
+    window.__selectedVehicleId = sel.value ? parseInt(sel.value, 10) : null;
+  });
+  renderGrid();
+}
+
+function renderGrid(){
+  const grid=document.getElementById('invGrid');
+  const filtered = vehicles.filter(v => matchesFilter(v, currentFilter) && matchesSearch(v, searchQuery));
+  const slice = filtered.slice(0, visibleCount);
+
+  grid.innerHTML='';
+
+  if(filtered.length === 0){
+    grid.innerHTML = `<div class="search-no-results"><strong>No vehicles match "${searchQuery}"</strong>Try a different make or model, or clear your search.</div>`;
+  }else{
+    slice.forEach(v => grid.appendChild(buildCard(v)));
+  }
+
+  document.getElementById('visibleCount').textContent = slice.length;
+  document.getElementById('totalCount').textContent = filtered.length;
+
+  const wrap = document.getElementById('showMoreWrap');
+  const remaining = filtered.length - slice.length;
+  if(remaining > 0){
+    wrap.classList.remove('hidden');
+    document.getElementById('showMoreCount').textContent =
+      `Showing ${slice.length} of ${filtered.length}`;
+    document.getElementById('showMoreBtn').textContent =
+      `Show More Vehicles (+${Math.min(PAGE_SIZE, remaining)})`;
+  }else{
+    wrap.classList.add('hidden');
+  }
+}
+
+function showMore(){
+  visibleCount += PAGE_SIZE;
+  renderGrid();
+}
+
+/* ── SEARCH ──────────────────────────────────────── */
+const searchInput = document.getElementById('searchInput');
+const searchClearBtn = document.getElementById('searchClear');
+searchInput.addEventListener('input', ()=>{
+  searchQuery = searchInput.value.trim();
+  searchClearBtn.classList.toggle('show', searchQuery.length > 0);
+  visibleCount = PAGE_SIZE; // reset pagination on new search
+  renderGrid();
+});
+function clearSearch(){
+  searchInput.value = '';
+  searchQuery = '';
+  searchClearBtn.classList.remove('show');
+  visibleCount = PAGE_SIZE;
+  renderGrid();
+  searchInput.focus();
+}
+
+/* ── FILTER ──────────────────────────────────────── */
+document.getElementById('filters').addEventListener('click',e=>{
+  const btn=e.target.closest('.filter-btn');
+  if(!btn)return;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  currentFilter = btn.dataset.filter;
+  visibleCount = PAGE_SIZE; // reset pagination on filter change
+  renderGrid();
+});
+
+/* ── APPLY FROM CARD ─────────────────────────────── */
+function applyForVehicle(id){
+  const v = vehicles.find(x => x.id === id);
+  if(!v) return;
+  // FB Pixel — ViewContent when customer shows interest in a specific vehicle
+  if(typeof fbq === 'function'){
+    fbq('track', 'ViewContent', {
+      content_name: v.title,
+      content_category: v.store,
+      value: v.price || 0,
+      currency: 'CAD'
+    });
+  }
+  const sel=document.getElementById('vehicleOfInterest');
+  sel.value = String(v.id);
+  window.__selectedVehicleId = v.id;
+  const tag=document.getElementById('voiTag');
+  document.getElementById('voiTagText').textContent='Interested in: '+v.title+(v.price?' — '+fmt(v.price):'');
+  tag.classList.add('show');
+  document.getElementById('voiGroup').style.display='none';
+  document.getElementById('apply').scrollIntoView({behavior:'smooth'});
+  goStep(1);
+}
+function clearVoi(){
+  document.getElementById('vehicleOfInterest').value='';
+  window.__selectedVehicleId = null;
+  document.getElementById('voiTag').classList.remove('show');
+  document.getElementById('voiGroup').style.display='';
+}
+
+/* ── MULTI-STEP FORM ─────────────────────────────── */
+let currentStep=1;
+function goStep(n){
+  if(n>currentStep&&!validateStep(currentStep))return;
+  document.getElementById('step'+currentStep).classList.remove('active');
+  currentStep=n;
+  document.getElementById('step'+n).classList.add('active');
+  updateProgress();
+  document.getElementById('apply').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function updateProgress(){
+  for(let i=1;i<=4;i++){
+    const el=document.getElementById('fp'+i);
+    el.classList.remove('active','done');
+    if(i<currentStep)el.classList.add('done');
+    else if(i===currentStep)el.classList.add('active');
+  }
+}
+function validateStep(n){
+  let ok=true;
+  const required={
+    1:['firstName','lastName','email','phone','dateOfBirth'],
+    2:['streetAddress','city','province','postalCode'],
+    3:['employmentStatus','monthlyIncome'],
+    4:[]
+  };
+  (required[n]||[]).forEach(id=>{
+    const el=document.getElementById(id);
+    const err=document.getElementById('err-'+id);
+    if(!el||!el.value.trim()){
+      el&&el.classList.add('error');
+      err&&err.classList.add('show');
+      ok=false;
+    }else{el.classList.remove('error');err&&err.classList.remove('show');}
+  });
+  if(n===4){
+    const hasLicense=document.querySelector('.toggle-btn.selected-yes[id="licYes"]')||document.querySelector('.toggle-btn.selected-no[id="licNo"]');
+    if(!hasLicense){document.getElementById('err-license').classList.add('show');ok=false;}
+    else document.getElementById('err-license').classList.remove('show');
+  }
+  return ok;
+}
+// clear error on input
+document.querySelectorAll('.form-input,.form-select').forEach(el=>{
+  el.addEventListener('input',()=>{
+    el.classList.remove('error');
+    const err=document.getElementById('err-'+el.id);
+    if(err)err.classList.remove('show');
+  });
+});
+
+/* ── EMPLOYMENT TOGGLE ───────────────────────────── */
+function toggleEmployment(){
+  const v=document.getElementById('employmentStatus').value;
+  const show=['Employed Full-Time','Employed Part-Time','Self-Employed','Seasonal'].includes(v);
+  document.getElementById('employerFields').classList.toggle('show',show);
+}
+
+/* ── LICENSE TOGGLE ──────────────────────────────── */
+let licenseVal=null;
+function setLicense(v){
+  licenseVal=v;
+  document.getElementById('licYes').className='toggle-btn'+(v==='yes'?' selected-yes':'');
+  document.getElementById('licNo').className='toggle-btn'+(v==='no'?' selected-no':'');
+  document.getElementById('licenseFields').classList.toggle('show',v==='yes');
+  document.getElementById('err-license').classList.remove('show');
+}
+
+/* ── TRADE-IN TOGGLE ─────────────────────────────── */
+let tradeVal=null;
+function setTradeIn(v){
+  tradeVal=v;
+  document.getElementById('tradeYes').className='toggle-btn'+(v==='yes'?' selected-yes':'');
+  document.getElementById('tradeNo').className='toggle-btn'+(v==='no'?' selected-no':'');
+  document.getElementById('tradeInFields').classList.toggle('show',v==='yes');
+}
+
+/* ── SUBMIT ──────────────────────────────────────── */
+async function submitForm(){
+  if(!validateStep(4))return;
+  const btn=document.getElementById('submitBtn');
+  btn.disabled=true;btn.textContent='Submitting…';
+
+  // resolve selected vehicle (if any) for vehicleOfInterest + dealerLocation
+  const selId = window.__selectedVehicleId
+    || (document.getElementById('vehicleOfInterest').value ? parseInt(document.getElementById('vehicleOfInterest').value, 10) : null);
+  const selVehicle = selId ? vehicles.find(v => v.id === selId) : null;
+
+  const payload={
+    source:'directfinance.ca — Calgary Inventory',
+    vehicleOfInterest: selVehicle ? (selVehicle.title + (selVehicle.price ? ' — ' + fmt(selVehicle.price) : '')) : '',
+    dealerLocation: selVehicle ? selVehicle.store : '',
+    firstName:  document.getElementById('firstName').value.trim(),
+    lastName:   document.getElementById('lastName').value.trim(),
+    email:      document.getElementById('email').value.trim(),
+    phone:      document.getElementById('phone').value.trim(),
+    dateOfBirth:document.getElementById('dateOfBirth').value,
+    streetAddress:document.getElementById('streetAddress').value.trim(),
+    city:       document.getElementById('city').value.trim(),
+    province:   document.getElementById('province').value,
+    postalCode: document.getElementById('postalCode').value.trim().toUpperCase(),
+    employmentStatus:document.getElementById('employmentStatus').value,
+    employerName:    document.getElementById('employerName').value.trim(),
+    jobTitle:        document.getElementById('jobTitle').value.trim(),
+    monthlyIncome:   document.getElementById('monthlyIncome').value,
+    hasDriversLicense: licenseVal||'',
+    licenseNumber:   document.getElementById('licenseNumber').value.trim(),
+    licenseProvince: document.getElementById('licenseProvince').value,
+    hasTradeIn:  tradeVal||'no',
+    tradeInYear: document.getElementById('tradeYear').value,
+    tradeInMake: document.getElementById('tradeMake').value.trim(),
+    tradeInModel:document.getElementById('tradeModel').value.trim(),
+    tradeInKm:   document.getElementById('tradeKm').value,
+    tradeInCondition:document.getElementById('tradeCondition').value,
+  };
+  try{
+    await fetch(GHL_WEBHOOK,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(payload)
+    });
+  }catch(e){console.warn('Webhook error',e);}
+  // show success regardless of webhook outcome
+  document.getElementById('formContainer').style.display='none';
+  document.getElementById('formSuccess').classList.add('show');
+  // FB Pixel — fire Lead event on successful form submission
+  if(typeof fbq === 'function'){
+    fbq('track', 'Lead', {
+      content_name: payload.vehicleOfInterest || 'General Inquiry',
+      content_category: payload.dealerLocation || 'Direct Finance Calgary',
+      currency: 'CAD'
+    });
+  }
+}
+
+/* ── CREDIT METER ANIMATION ──────────────────────── */
+function animateCreditMeter(){
+  const fill=document.getElementById('cmFill');
+  const ticks=document.querySelectorAll('.cm-ticks span');
+  const cap=document.getElementById('cmCaption');
+  fill.classList.add('animated');
+  setTimeout(()=>ticks[0].classList.add('lit'),300);
+  setTimeout(()=>ticks[1].classList.add('lit'),700);
+  setTimeout(()=>ticks[2].classList.add('lit'),1100);
+  setTimeout(()=>ticks[3].classList.add('lit'),1500);
+  cap.classList.add('show');
+}
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){animateCreditMeter();obs.disconnect();}});
+},{threshold:.3});
+obs.observe(document.getElementById('creditMeter'));
+
+/* ── INIT ────────────────────────────────────────── */
+renderVehicles(vehicles);
+</script>
+</body>
+</html>
